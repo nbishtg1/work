@@ -1,0 +1,138 @@
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2477487
+[INFO]: 2023-07-06 09:30:06.768469 order_id 202307062400004485 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 09:30:07.375041 order_id 202307062400004488 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 09:30:07.779682 order_id 202307062400004496 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 09:30:07.983711 order_id 202307062400004500 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 09:34:06.437540 modifying order_id 202307062400005434 with limitPrice @81.3
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-07-06 09:34:06.933727 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202307062400005434'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 09:34:06.934080 order_id 202307062400005434 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-07-06 09:34:07.341681 order_id 202307062400005437 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 09:34:10.572897 order_id 202307062400005450 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 09:34:12.989129 order_id 202307062400005434 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 09:40:07.431118 modifying order_id 202307062400006569 with limitPrice @24.5
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 75
+[ERROR]: 2023-07-06 09:40:07.681435 {'Success': None, 'Status': 500, 'Error': 'Order Quantity is already executed.'}
+[INFO]: 2023-07-06 09:40:07.681905 order_id 202307062400006569 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 09:40:08.087838 order_id 202307062400006571 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 09:40:10.707619 order_id 202307062400006582 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 09:40:11.112213 order_id 202307062400006584 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 10:26:06.596239 order_id 202307062400013702 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 10:26:07.001504 order_id 202307062400013704 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 10:26:10.625632 order_id 202307062400013718 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 10:26:10.828381 order_id 202307062400013720 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 10:41:07.378929 modifying order_id 202307062400015707 with limitPrice @77.8
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-07-06 10:41:07.741279 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202307062400015707'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 10:41:07.741514 order_id 202307062400015707 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-07-06 10:41:07.946803 order_id 202307062400015709 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 10:41:11.372008 order_id 202307062400015716 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 10:41:13.791550 order_id 202307062400015707 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 11:00:07.131173 order_id 202307062400017546 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 11:00:07.337400 order_id 202307062400017549 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 11:00:10.564304 order_id 202307062400017557 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 11:00:10.767228 order_id 202307062400017558 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 12:40:06.707587 order_id 202307062400028488 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 12:40:07.314157 order_id 202307062400028491 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 12:40:10.942803 order_id 202307062400028501 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 12:40:11.145455 order_id 202307062400028502 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 12:56:06.658354 order_id 202307062400030219 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 12:56:07.263991 order_id 202307062400030221 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 12:56:10.888553 order_id 202307062400030234 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 12:56:11.092184 order_id 202307062400030235 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 13:21:06.926378 order_id 202307062400032856 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 13:21:07.330163 order_id 202307062400032857 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 13:21:11.157258 order_id 202307062400032863 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 13:21:11.360387 order_id 202307062400032865 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 13:30:07.455563 order_id 202307062400033836 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 13:30:07.658638 order_id 202307062400033837 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 13:30:10.882992 order_id 202307062400033841 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 13:30:11.287195 order_id 202307062400033843 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 13:41:07.479585 order_id 202307062400034891 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 13:41:07.683335 order_id 202307062400034893 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 13:41:10.906057 order_id 202307062400034906 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 13:41:11.108662 order_id 202307062400034907 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 13:52:07.118265 order_id 202307062400035888 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 13:52:07.330001 order_id 202307062400035890 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 13:52:10.555770 modifying order_id 202307062400035905 with limitPrice @57.15
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 75
+[ERROR]: 2023-07-06 13:52:10.850040 {'Success': None, 'Status': 500, 'Error': 'Order Quantity is already executed.'}
+[INFO]: 2023-07-06 13:52:10.850314 order_id 202307062400035905 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 13:52:11.053124 order_id 202307062400035906 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 13:57:06.942361 order_id 202307062400036344 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 13:57:07.145048 order_id 202307062400036343 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 13:57:10.769390 order_id 202307062400036351 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 13:57:10.972236 order_id 202307062400036354 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 14:01:06.983906 order_id 202307062400036780 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 14:01:07.189122 order_id 202307062400036781 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 14:01:10.409871 order_id 202307062400036798 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 14:01:10.813756 order_id 202307062400036800 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 15:15:07.061907 order_id 202307062400049980 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 15:15:07.468022 order_id 202307062400049983 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-07-06 15:15:10.692980 order_id 202307062400049995 filled,removing from modifyOrder queue
+[INFO]: ..

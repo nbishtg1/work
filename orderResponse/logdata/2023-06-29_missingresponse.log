@@ -1,0 +1,18 @@
+[INFO]: 2023-06-29 14:57:57.660886 no unfilled orders
+[INFO]: 2023-06-29 14:58:17.684283 no unfilled orders
+[INFO]: 2023-06-29 14:58:57.732715 checking orderStatus
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/order HTTP/1.1" 200 767
+[INFO]: 2023-06-29 14:58:57.939957 {'Success': [{'order_id': '202306302700001577', 'exchange_order_id': '', 'exchange_code': 'NFO', 'stock_code': 'NIFTY', 'product_type': 'Options', 'action': 'Buy', 'order_type': 'Limit', 'stoploss': '0', 'quantity': '50', 'price': '5.1', 'validity': 'Day', 'disclosed_quantity': '0', 'expiry_date': '06-Jul-2023', 'right': 'Put', 'strike_price': 18950.0, 'average_price': '0', 'cancelled_quantity': '0', 'pending_quantity': '50', 'status': 'Requested', 'user_remark': None, 'order_datetime': '29-Jun-2023 14:58:48', 'parent_order_id': '', 'modification_number': None, 'exchange_acknowledgement_date': None, 'SLTP_price': None, 'exchange_acknowledge_number': None, 'initial_limit': None, 'intial_sltp': None, 'LTP': None, 'limit_offset': None, 'mbc_flag': None, 'cutoff_price': None, 'validity_date': None}], 'Status': 200, 'Error': None}
+[INFO]: 2023-06-29 14:58:57.940144 response delay 0.21
+[INFO]: 2023-06-29 14:58:57.940194 order yet not filled
+[INFO]: ..
+[INFO]: 2023-06-29 14:59:17.956534 checking orderStatus
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/order HTTP/1.1" 200 767
+[INFO]: 2023-06-29 14:59:18.180937 {'Success': [{'order_id': '202306302700001577', 'exchange_order_id': '', 'exchange_code': 'NFO', 'stock_code': 'NIFTY', 'product_type': 'Options', 'action': 'Buy', 'order_type': 'Limit', 'stoploss': '0', 'quantity': '50', 'price': '5.1', 'validity': 'Day', 'disclosed_quantity': '0', 'expiry_date': '06-Jul-2023', 'right': 'Put', 'strike_price': 18950.0, 'average_price': '0', 'cancelled_quantity': '0', 'pending_quantity': '50', 'status': 'Requested', 'user_remark': None, 'order_datetime': '29-Jun-2023 14:58:48', 'parent_order_id': '', 'modification_number': None, 'exchange_acknowledgement_date': None, 'SLTP_price': None, 'exchange_acknowledge_number': None, 'initial_limit': None, 'intial_sltp': None, 'LTP': None, 'limit_offset': None, 'mbc_flag': None, 'cutoff_price': None, 'validity_date': None}], 'Status': 200, 'Error': None}
+[INFO]: 2023-06-29 14:59:18.181132 response delay 0.22
+[INFO]: 2023-06-29 14:59:18.181181 order yet not filled
+[INFO]: ..
+[INFO]: 2023-06-29 14:59:38.203509 no unfilled orders
+[INFO]: 2023-06-29 14:59:58.226200 no unfilled orders

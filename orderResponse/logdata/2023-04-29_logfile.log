@@ -1,0 +1,52 @@
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2145989
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2145989
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2145989
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2145989
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2145989
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2145989
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2145989
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2145989
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2145989
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2145989
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2145989
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2145989
+[INFO]: {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19232', 'requestType': '5', 'messageSequence': '2023050200002970', 'messageDate': '29-04-2023', 'messageTime': '16:59:33', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Put', 'exerciseType': 'E', 'strikePrice': '1760000', 'expiryDate': '04-May-2023', 'orderValidDate': '02-May-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '200', 'orderStatus': 'Requested', 'orderReference': '202305022700001216', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '02-May-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19233', 'requestType': '5', 'messageSequence': '2023050200002973', 'messageDate': '29-04-2023', 'messageTime': '17:00:57', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Put', 'exerciseType': 'E', 'strikePrice': '1760000', 'expiryDate': '04-May-2023', 'orderValidDate': '02-May-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '200', 'orderStatus': 'Cancelled', 'orderReference': '202305022700001216', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '50', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '02-May-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19232', 'requestType': '5', 'messageSequence': '2023050200003038', 'messageDate': '29-04-2023', 'messageTime': '17:18:21', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Put', 'exerciseType': 'E', 'strikePrice': '1760000', 'expiryDate': '04-May-2023', 'orderValidDate': '02-May-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '200', 'orderStatus': 'Requested', 'orderReference': '202305022700001221', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '02-May-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19233', 'requestType': '5', 'messageSequence': '2023050200003042', 'messageDate': '29-04-2023', 'messageTime': '17:18:41', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Put', 'exerciseType': 'E', 'strikePrice': '1760000', 'expiryDate': '04-May-2023', 'orderValidDate': '02-May-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '200', 'orderStatus': 'Cancelled', 'orderReference': '202305022700001221', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '50', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '02-May-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}

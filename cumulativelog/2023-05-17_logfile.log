@@ -1,0 +1,51 @@
+[INFO]: [Errno 2] No such file or directory: 'openPosition.csv'
+[INFO]: 'bool' object is not callable
+[ERROR]: [Errno 2] No such file or directory: 'openPosition.csv'
+[INFO]: 'bool' object is not callable
+[ERROR]: [Errno 2] No such file or directory: 'openPosition.csv'
+[ERROR]: [Errno 2] No such file or directory: 'openPosition.csv'
+[ERROR]: 'bool' object is not callable
+[ERROR]: [Errno 2] No such file or directory: 'openPosition.csv'
+[ERROR]: 'bool' object is not callable
+[ERROR]: [Errno 2] No such file or directory: 'openPosition.csv'
+[INFO]: HopperN,NIFTY11MAY2317500CE,50,BUY
+[INFO]:   algoName               symbol  quantity
+0  HopperN  NIFTY11MAY2317500CE        50
+[INFO]: HopperN,NIFTY11MAY2317600CE,50,BUY
+[INFO]:   algoName               symbol  quantity
+0  HopperN  NIFTY11MAY2317500CE        50
+1  HopperN  NIFTY11MAY2317600CE        50
+[INFO]: HopperN,NIFTY11MAY2317700CE,50,BUY
+[INFO]:   algoName               symbol  quantity
+0  HopperN  NIFTY11MAY2317500CE        50
+1  HopperN  NIFTY11MAY2317600CE        50
+2  HopperN  NIFTY11MAY2317700CE        50
+[ERROR]: name 'Symbol' is not defined
+[ERROR]: name 'Symbol' is not defined
+[INFO]: HopperN,NIFTY11MAY2317700CE,100,SELL
+[INFO]:   algoName               symbol  quantity
+0  HopperN  NIFTY11MAY2317500CE        50
+1  HopperN  NIFTY11MAY2317600CE        50
+2  HopperN  NIFTY11MAY2317700CE       -50
+[INFO]: HopperN,NIFTY11MAY2317600CE,100,BUY
+[INFO]:   algoName               symbol  quantity
+0  HopperN  NIFTY11MAY2317500CE        50
+1  HopperN  NIFTY11MAY2317600CE       150
+2  HopperN  NIFTY11MAY2317700CE       -50
+[INFO]: HN,NIFTY11MAY2317600CE,200,SELL
+[INFO]:   algoName               symbol  quantity
+0  HopperN  NIFTY11MAY2317500CE        50
+1  HopperN  NIFTY11MAY2317600CE       150
+2  HopperN  NIFTY11MAY2317700CE       -50
+3       HN  NIFTY11MAY2317600CE       200
+[INFO]: HopperN,NIFTY11MAY2317600CE,200,SELL
+[INFO]:   algoName               symbol  quantity
+0  HopperN  NIFTY11MAY2317500CE        50
+1  HopperN  NIFTY11MAY2317600CE       -50
+2  HopperN  NIFTY11MAY2317700CE       -50
+3       HN  NIFTY11MAY2317600CE       200
+[INFO]: HopperN,NIFTY11MAY2317600CE,50,BUY
+[INFO]:   algoName               symbol  quantity
+0  HopperN  NIFTY11MAY2317500CE        50
+1  HopperN  NIFTY11MAY2317700CE       -50
+2       HN  NIFTY11MAY2317600CE       200

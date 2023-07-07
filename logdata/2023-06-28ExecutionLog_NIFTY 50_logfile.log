@@ -1,0 +1,431 @@
+[INFO]: ..........................START........................
+[INFO]: Candle:2023-06-28 09:15:00 , Open:18908.15 , High:18908.15 , Low:18863.15 , Close:18869.85
+[INFO]: Candle:2023-06-28 09:16:00 , Open:18872.4 , High:18880.85 , Low:18869.65 , Close:18871.55
+[INFO]: Candle:2023-06-28 09:17:00 , Open:18873.85 , High:18876.45 , Low:18870.25 , Close:18874.7
+[INFO]: Candle:2023-06-28 09:18:00 , Open:18876.5 , High:18878.25 , Low:18868.65 , Close:18870.65
+[INFO]: Candle:2023-06-28 09:19:00 , Open:18870.1 , High:18875.2 , Low:18869.0 , Close:18869.5
+[INFO]: Candle:2023-06-28 09:20:00 , Open:18868.8 , High:18875.35 , Low:18867.4 , Close:18872.4
+[INFO]: Candle:2023-06-28 09:21:00 , Open:18873.65 , High:18874.6 , Low:18868.9 , Close:18869.6
+[INFO]: Candle:2023-06-28 09:22:00 , Open:18870.15 , High:18870.9 , Low:18866.15 , Close:18867.95
+[INFO]: Candle:2023-06-28 09:23:00 , Open:18867.95 , High:18869.1 , Low:18865.25 , Close:18866.4
+[INFO]: Candle:2023-06-28 09:24:00 , Open:18866.8 , High:18868.25 , Low:18864.6 , Close:18867.65
+[INFO]: Candle:2023-06-28 09:25:00 , Open:18867.9 , High:18870.9 , Low:18867.2 , Close:18870.9
+[INFO]: Candle:2023-06-28 09:26:00 , Open:18871.3 , High:18871.95 , Low:18865.75 , Close:18865.85
+[INFO]: Candle:2023-06-28 09:27:00 , Open:18865.8 , High:18869.45 , Low:18864.9 , Close:18868.95
+[INFO]: Candle:2023-06-28 09:28:00 , Open:18868.4 , High:18871.15 , Low:18866.8 , Close:18868.2
+[INFO]: Candle:2023-06-28 09:29:00 , Open:18868.55 , High:18871.85 , Low:18866.45 , Close:18871.05
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 09:30:00.169860-------------built NIFTY28JUN2318850PE short position
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 09:30:00.169860-------------built NIFTY28JUN2318850CE short position 
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 09:30:00.169860-------------built NIFTY28JUN2318900PE short position
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 09:30:00.169860-------------built NIFTY28JUN2318900CE short position 
+[INFO]: lt:[18850, 18900]
+[INFO]: Candle:2023-06-28 09:30:00 , Open:18871.2 , High:18875.15 , Low:18870.0 , Close:18872.9
+[INFO]: Candle:2023-06-28 09:31:00 , Open:18872.8 , High:18872.8 , Low:18861.45 , Close:18866.2
+[INFO]: Candle:2023-06-28 09:32:00 , Open:18865.95 , High:18866.85 , Low:18863.95 , Close:18865.6
+[INFO]: Candle:2023-06-28 09:33:00 , Open:18866.15 , High:18875.65 , Low:18865.4 , Close:18874.4
+[INFO]: Candle:2023-06-28 09:34:00 , Open:18875.25 , High:18879.0 , Low:18875.05 , Close:18878.25
+[INFO]: Candle:2023-06-28 09:35:00 , Open:18877.5 , High:18885.9 , Low:18877.5 , Close:18885.75
+[INFO]: Candle:2023-06-28 09:36:00 , Open:18886.45 , High:18888.75 , Low:18884.6 , Close:18887.85
+[INFO]: Candle:2023-06-28 09:37:00 , Open:18887.85 , High:18890.8 , Low:18884.6 , Close:18887.75
+[INFO]: Candle:2023-06-28 09:38:00 , Open:18888.65 , High:18890.95 , Low:18886.95 , Close:18888.05
+[INFO]: Candle:2023-06-28 09:39:00 , Open:18888.9 , High:18889.0 , Low:18882.05 , Close:18884.3
+[INFO]: Candle:2023-06-28 09:40:00 , Open:18884.8 , High:18885.45 , Low:18871.7 , Close:18874.85
+[INFO]: Candle:2023-06-28 09:41:00 , Open:18874.9 , High:18874.9 , Low:18868.75 , Close:18873.3
+[INFO]: Candle:2023-06-28 09:43:00 , Open:18875.3 , High:18875.75 , Low:18868.9 , Close:18869.1
+[INFO]: Candle:2023-06-28 09:44:00 , Open:18870.05 , High:18872.05 , Low:18868.35 , Close:18870.15
+[INFO]: Candle:2023-06-28 09:45:00 , Open:18869.75 , High:18871.65 , Low:18868.65 , Close:18870.8
+[INFO]: Candle:2023-06-28 09:46:00 , Open:18870.45 , High:18873.75 , Low:18869.0 , Close:18873.6
+[INFO]: Candle:2023-06-28 09:47:00 , Open:18874.15 , High:18880.5 , Low:18874.05 , Close:18878.6
+[INFO]: Candle:2023-06-28 09:48:00 , Open:18878.6 , High:18879.25 , Low:18874.65 , Close:18879.05
+[INFO]: Candle:2023-06-28 09:49:00 , Open:18878.75 , High:18884.45 , Low:18878.45 , Close:18882.7
+[INFO]: Candle:2023-06-28 09:50:00 , Open:18883.7 , High:18888.7 , Low:18883.0 , Close:18888.2
+[INFO]: Candle:2023-06-28 09:51:00 , Open:18888.9 , High:18896.25 , Low:18888.0 , Close:18894.15
+[INFO]: Candle:2023-06-28 09:52:00 , Open:18892.95 , High:18897.1 , Low:18892.7 , Close:18895.05
+[INFO]: Candle:2023-06-28 09:53:00 , Open:18894.2 , High:18896.35 , Low:18893.05 , Close:18895.0
+[INFO]: Candle:2023-06-28 09:54:00 , Open:18895.55 , High:18897.1 , Low:18890.15 , Close:18893.05
+[INFO]: Candle:2023-06-28 09:55:00 , Open:18892.4 , High:18893.95 , Low:18889.1 , Close:18892.45
+[INFO]: Candle:2023-06-28 09:56:00 , Open:18892.4 , High:18893.65 , Low:18889.55 , Close:18892.3
+[INFO]: Candle:2023-06-28 09:57:00 , Open:18892.25 , High:18892.55 , Low:18885.0 , Close:18886.0
+[INFO]: Candle:2023-06-28 09:58:00 , Open:18885.8 , High:18892.5 , Low:18885.75 , Close:18889.5
+[INFO]: Candle:2023-06-28 09:59:00 , Open:18889.3 , High:18894.1 , Low:18888.15 , Close:18889.05
+[INFO]: Candle:2023-06-28 10:00:00 , Open:18888.8 , High:18892.55 , Low:18888.8 , Close:18891.5
+[INFO]: Candle:2023-06-28 10:01:00 , Open:18892.45 , High:18893.0 , Low:18889.65 , Close:18890.05
+[INFO]: Candle:2023-06-28 10:02:00 , Open:18890.4 , High:18891.7 , Low:18887.05 , Close:18888.5
+[INFO]: Candle:2023-06-28 10:03:00 , Open:18889.0 , High:18891.4 , Low:18887.6 , Close:18889.15
+[INFO]: Candle:2023-06-28 10:04:00 , Open:18889.4 , High:18890.0 , Low:18885.7 , Close:18886.05
+[INFO]: Candle:2023-06-28 10:05:00 , Open:18886.55 , High:18886.55 , Low:18882.5 , Close:18885.0
+[INFO]: Candle:2023-06-28 10:06:00 , Open:18884.9 , High:18887.2 , Low:18883.1 , Close:18883.6
+[INFO]: Candle:2023-06-28 10:07:00 , Open:18883.25 , High:18883.55 , Low:18878.6 , Close:18881.15
+[INFO]: Candle:2023-06-28 10:08:00 , Open:18880.95 , High:18883.3 , Low:18880.1 , Close:18881.05
+[INFO]: Candle:2023-06-28 10:09:00 , Open:18880.15 , High:18882.5 , Low:18879.45 , Close:18880.3
+[INFO]: Candle:2023-06-28 10:10:00 , Open:18879.9 , High:18881.0 , Low:18879.2 , Close:18879.9
+[INFO]: Candle:2023-06-28 10:11:00 , Open:18878.85 , High:18883.5 , Low:18878.85 , Close:18881.75
+[INFO]: Candle:2023-06-28 10:12:00 , Open:18881.85 , High:18889.0 , Low:18881.85 , Close:18888.1
+[INFO]: Candle:2023-06-28 10:13:00 , Open:18887.6 , High:18890.25 , Low:18887.45 , Close:18889.8
+[INFO]: Candle:2023-06-28 10:14:00 , Open:18889.85 , High:18890.55 , Low:18887.55 , Close:18888.3
+[INFO]: Candle:2023-06-28 10:15:00 , Open:18888.3 , High:18891.0 , Low:18887.85 , Close:18889.9
+[INFO]: Candle:2023-06-28 10:17:00 , Open:18890.95 , High:18890.95 , Low:18884.95 , Close:18889.8
+[INFO]: Candle:2023-06-28 10:18:00 , Open:18890.05 , High:18891.45 , Low:18888.85 , Close:18890.7
+[INFO]: Candle:2023-06-28 10:19:00 , Open:18889.6 , High:18892.0 , Low:18889.6 , Close:18891.35
+[INFO]: Candle:2023-06-28 10:20:00 , Open:18890.8 , High:18894.4 , Low:18890.35 , Close:18893.25
+[INFO]: Candle:2023-06-28 10:21:00 , Open:18892.45 , High:18894.9 , Low:18892.4 , Close:18894.05
+[INFO]: Candle:2023-06-28 10:22:00 , Open:18894.75 , High:18894.85 , Low:18890.8 , Close:18891.3
+[INFO]: Candle:2023-06-28 10:23:00 , Open:18891.6 , High:18892.3 , Low:18887.1 , Close:18887.15
+[INFO]: Candle:2023-06-28 10:24:00 , Open:18886.4 , High:18888.05 , Low:18884.6 , Close:18885.7
+[INFO]: Candle:2023-06-28 10:25:00 , Open:18885.7 , High:18888.0 , Low:18884.35 , Close:18884.85
+[INFO]: Candle:2023-06-28 10:26:00 , Open:18885.0 , High:18886.2 , Low:18883.5 , Close:18883.7
+[INFO]: Candle:2023-06-28 10:27:00 , Open:18884.1 , High:18891.7 , Low:18884.1 , Close:18890.9
+[INFO]: Candle:2023-06-28 10:28:00 , Open:18891.0 , High:18897.0 , Low:18891.0 , Close:18896.8
+[INFO]: Candle:2023-06-28 10:29:00 , Open:18896.35 , High:18900.85 , Low:18896.35 , Close:18898.75
+[INFO]: Candle:2023-06-28 10:30:00 , Open:18899.2 , High:18900.45 , Low:18897.3 , Close:18898.85
+[INFO]: Candle:2023-06-28 10:31:00 , Open:18898.6 , High:18899.0 , Low:18895.1 , Close:18895.9
+[INFO]: Candle:2023-06-28 10:32:00 , Open:18896.25 , High:18906.25 , Low:18895.95 , Close:18904.3
+[INFO]: Candle:2023-06-28 10:33:00 , Open:18904.2 , High:18909.55 , Low:18904.2 , Close:18906.35
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 10:34:00.519274 shift straddle upward----------------closed NIFTY28JUN2318850PE short position @14.5
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 10:34:00.519274 shift straddle upward----------------closed NIFTY28JUN2318850CE short position @69.35
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 10:34:00.519274-------------built NIFTY28JUN2318950PE short position
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 10:34:00.519274-------------built NIFTY28JUN2318950CE short position
+[INFO]: lt:[18900, 18950]
+[INFO]: Candle:2023-06-28 10:34:00 , Open:18906.75 , High:18906.75 , Low:18902.6 , Close:18904.0
+[INFO]: Candle:2023-06-28 10:35:00 , Open:18903.5 , High:18906.25 , Low:18903.5 , Close:18904.85
+[INFO]: Candle:2023-06-28 10:36:00 , Open:18905.15 , High:18911.25 , Low:18905.15 , Close:18909.0
+[INFO]: Candle:2023-06-28 10:37:00 , Open:18908.05 , High:18910.7 , Low:18906.75 , Close:18907.55
+[INFO]: Candle:2023-06-28 10:38:00 , Open:18907.9 , High:18912.4 , Low:18907.5 , Close:18912.0
+[INFO]: Candle:2023-06-28 10:39:00 , Open:18911.55 , High:18912.6 , Low:18910.4 , Close:18911.55
+[INFO]: Candle:2023-06-28 10:40:00 , Open:18911.5 , High:18919.3 , Low:18911.05 , Close:18919.3
+[INFO]: Candle:2023-06-28 10:41:00 , Open:18919.8 , High:18922.45 , Low:18917.55 , Close:18918.5
+[INFO]: Candle:2023-06-28 10:42:00 , Open:18918.9 , High:18919.45 , Low:18915.25 , Close:18917.2
+[INFO]: Candle:2023-06-28 10:43:00 , Open:18916.8 , High:18920.7 , Low:18916.8 , Close:18920.35
+[INFO]: Candle:2023-06-28 10:44:00 , Open:18920.2 , High:18921.05 , Low:18917.65 , Close:18920.35
+[INFO]: Candle:2023-06-28 10:45:00 , Open:18920.3 , High:18922.5 , Low:18919.55 , Close:18920.35
+[INFO]: Candle:2023-06-28 10:46:00 , Open:18920.55 , High:18921.1 , Low:18918.55 , Close:18919.9
+[INFO]: Candle:2023-06-28 10:47:00 , Open:18920.3 , High:18922.05 , Low:18920.05 , Close:18921.5
+[INFO]: Candle:2023-06-28 10:48:00 , Open:18921.45 , High:18924.9 , Low:18920.45 , Close:18924.8
+[INFO]: Candle:2023-06-28 10:49:00 , Open:18924.6 , High:18931.4 , Low:18924.6 , Close:18928.3
+[INFO]: Candle:2023-06-28 10:50:00 , Open:18928.25 , High:18929.4 , Low:18926.8 , Close:18929.15
+[INFO]: Candle:2023-06-28 10:51:00 , Open:18928.75 , High:18930.15 , Low:18925.55 , Close:18926.6
+[INFO]: Candle:2023-06-28 10:52:00 , Open:18926.3 , High:18928.45 , Low:18924.85 , Close:18926.5
+[INFO]: Candle:2023-06-28 10:54:00 , Open:18923.0 , High:18923.8 , Low:18920.15 , Close:18921.25
+[INFO]: Candle:2023-06-28 10:55:00 , Open:18920.85 , High:18924.1 , Low:18920.55 , Close:18922.8
+[INFO]: Candle:2023-06-28 10:56:00 , Open:18923.05 , High:18924.95 , Low:18921.05 , Close:18922.05
+[INFO]: Candle:2023-06-28 10:57:00 , Open:18921.45 , High:18924.05 , Low:18921.2 , Close:18923.2
+[INFO]: Candle:2023-06-28 10:58:00 , Open:18924.25 , High:18926.0 , Low:18917.65 , Close:18918.2
+[INFO]: Candle:2023-06-28 10:59:00 , Open:18918.35 , High:18918.9 , Low:18915.3 , Close:18917.4
+[INFO]: Candle:2023-06-28 11:00:00 , Open:18917.1 , High:18917.2 , Low:18915.3 , Close:18916.35
+[INFO]: Candle:2023-06-28 11:01:00 , Open:18916.15 , High:18919.6 , Low:18915.85 , Close:18917.2
+[INFO]: Candle:2023-06-28 11:02:00 , Open:18917.4 , High:18920.6 , Low:18915.65 , Close:18918.5
+[INFO]: Candle:2023-06-28 11:03:00 , Open:18919.05 , High:18920.45 , Low:18917.85 , Close:18919.0
+[INFO]: Candle:2023-06-28 11:04:00 , Open:18919.15 , High:18923.15 , Low:18919.0 , Close:18921.8
+[INFO]: Candle:2023-06-28 11:05:00 , Open:18922.6 , High:18923.35 , Low:18920.95 , Close:18922.05
+[INFO]: Candle:2023-06-28 11:06:00 , Open:18921.1 , High:18926.2 , Low:18921.1 , Close:18923.6
+[INFO]: Candle:2023-06-28 11:07:00 , Open:18923.85 , High:18926.5 , Low:18922.95 , Close:18926.5
+[INFO]: Candle:2023-06-28 11:08:00 , Open:18926.5 , High:18927.75 , Low:18925.4 , Close:18926.2
+[INFO]: Candle:2023-06-28 11:09:00 , Open:18926.1 , High:18927.3 , Low:18924.5 , Close:18926.45
+[INFO]: Candle:2023-06-28 11:10:00 , Open:18926.95 , High:18932.5 , Low:18925.4 , Close:18932.5
+[INFO]: Candle:2023-06-28 11:11:00 , Open:18932.35 , High:18934.3 , Low:18931.4 , Close:18932.3
+[INFO]: Candle:2023-06-28 11:12:00 , Open:18932.35 , High:18936.25 , Low:18932.25 , Close:18935.05
+[INFO]: Candle:2023-06-28 11:13:00 , Open:18934.65 , High:18936.6 , Low:18934.35 , Close:18935.55
+[INFO]: Candle:2023-06-28 11:14:00 , Open:18935.45 , High:18940.2 , Low:18935.25 , Close:18939.5
+[INFO]: Candle:2023-06-28 11:15:00 , Open:18939.3 , High:18941.15 , Low:18938.7 , Close:18939.45
+[INFO]: Candle:2023-06-28 11:16:00 , Open:18939.15 , High:18939.5 , Low:18937.7 , Close:18937.9
+[INFO]: Candle:2023-06-28 11:17:00 , Open:18937.6 , High:18938.25 , Low:18935.15 , Close:18935.8
+[INFO]: Candle:2023-06-28 11:18:00 , Open:18936.2 , High:18937.6 , Low:18934.3 , Close:18935.7
+[INFO]: Candle:2023-06-28 11:19:00 , Open:18935.55 , High:18936.8 , Low:18935.25 , Close:18935.6
+[INFO]: Candle:2023-06-28 11:20:00 , Open:18935.45 , High:18936.45 , Low:18933.85 , Close:18936.35
+[INFO]: Candle:2023-06-28 11:21:00 , Open:18935.8 , High:18946.9 , Low:18935.8 , Close:18945.4
+[INFO]: Candle:2023-06-28 11:22:00 , Open:18945.4 , High:18946.95 , Low:18943.95 , Close:18946.65
+[INFO]: Candle:2023-06-28 11:23:00 , Open:18945.8 , High:18950.3 , Low:18945.8 , Close:18948.7
+[INFO]: Candle:2023-06-28 11:24:00 , Open:18949.4 , High:18951.85 , Low:18947.55 , Close:18948.95
+[INFO]: Candle:2023-06-28 11:25:00 , Open:18948.35 , High:18949.9 , Low:18945.5 , Close:18946.7
+[INFO]: Candle:2023-06-28 11:26:00 , Open:18947.3 , High:18949.75 , Low:18946.25 , Close:18946.9
+[INFO]: Candle:2023-06-28 11:27:00 , Open:18946.45 , High:18950.0 , Low:18945.25 , Close:18950.0
+[INFO]: Candle:2023-06-28 11:28:00 , Open:18949.5 , High:18949.9 , Low:18947.8 , Close:18949.0
+[INFO]: Candle:2023-06-28 11:29:00 , Open:18948.65 , High:18955.0 , Low:18948.5 , Close:18953.45
+[INFO]: Candle:2023-06-28 11:30:00 , Open:18953.2 , High:18955.15 , Low:18952.3 , Close:18953.5
+[INFO]: Candle:2023-06-28 11:31:00 , Open:18953.2 , High:18954.0 , Low:18951.55 , Close:18952.85
+[INFO]: Candle:2023-06-28 11:32:00 , Open:18951.4 , High:18954.15 , Low:18951.4 , Close:18953.8
+[INFO]: Candle:2023-06-28 11:33:00 , Open:18953.1 , High:18955.8 , Low:18952.6 , Close:18955.45
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 11:34:00.256771 shift straddle upward----------------closed NIFTY28JUN2318900PE short position @16.1
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 11:34:00.256771 shift straddle upward----------------closed NIFTY28JUN2318900CE short position @69.45
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 11:34:00.256771-------------built NIFTY28JUN2319000PE short position
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 11:34:00.256771-------------built NIFTY28JUN2319000CE short position
+[INFO]: lt:[18950, 19000]
+[INFO]: Candle:2023-06-28 11:34:00 , Open:18955.0 , High:18959.05 , Low:18955.0 , Close:18958.05
+[INFO]: Candle:2023-06-28 11:35:00 , Open:18958.0 , High:18959.35 , Low:18956.0 , Close:18957.8
+[INFO]: Candle:2023-06-28 11:36:00 , Open:18957.95 , High:18959.05 , Low:18955.45 , Close:18957.4
+[INFO]: Candle:2023-06-28 11:37:00 , Open:18957.0 , High:18961.1 , Low:18957.0 , Close:18958.25
+[INFO]: Candle:2023-06-28 11:38:00 , Open:18958.8 , High:18959.75 , Low:18955.75 , Close:18957.15
+[INFO]: Candle:2023-06-28 11:39:00 , Open:18957.8 , High:18959.2 , Low:18956.3 , Close:18959.05
+[INFO]: Candle:2023-06-28 11:40:00 , Open:18958.85 , High:18961.4 , Low:18956.95 , Close:18960.25
+[INFO]: Candle:2023-06-28 11:42:00 , Open:18958.8 , High:18958.8 , Low:18947.85 , Close:18951.05
+[INFO]: Candle:2023-06-28 11:43:00 , Open:18950.45 , High:18955.85 , Low:18950.45 , Close:18954.35
+[INFO]: Candle:2023-06-28 11:44:00 , Open:18954.0 , High:18958.2 , Low:18953.55 , Close:18956.85
+[INFO]: Candle:2023-06-28 11:45:00 , Open:18956.05 , High:18960.35 , Low:18956.05 , Close:18958.8
+[INFO]: Candle:2023-06-28 11:46:00 , Open:18958.5 , High:18963.0 , Low:18957.9 , Close:18962.05
+[INFO]: Candle:2023-06-28 11:47:00 , Open:18962.05 , High:18965.35 , Low:18962.05 , Close:18963.7
+[INFO]: Candle:2023-06-28 11:48:00 , Open:18963.85 , High:18965.6 , Low:18962.2 , Close:18965.2
+[INFO]: Candle:2023-06-28 11:49:00 , Open:18965.05 , High:18967.5 , Low:18964.7 , Close:18966.3
+[INFO]: Candle:2023-06-28 11:50:00 , Open:18964.5 , High:18966.05 , Low:18962.15 , Close:18964.15
+[INFO]: Candle:2023-06-28 11:51:00 , Open:18963.85 , High:18970.45 , Low:18963.85 , Close:18969.1
+[INFO]: Candle:2023-06-28 11:52:00 , Open:18969.8 , High:18970.4 , Low:18967.3 , Close:18967.9
+[INFO]: Candle:2023-06-28 11:53:00 , Open:18967.65 , High:18969.2 , Low:18966.35 , Close:18967.15
+[INFO]: Candle:2023-06-28 11:54:00 , Open:18966.85 , High:18969.4 , Low:18965.9 , Close:18966.55
+[INFO]: Candle:2023-06-28 11:55:00 , Open:18966.85 , High:18967.4 , Low:18964.45 , Close:18965.55
+[INFO]: Candle:2023-06-28 11:56:00 , Open:18965.0 , High:18965.95 , Low:18962.0 , Close:18962.8
+[INFO]: Candle:2023-06-28 11:57:00 , Open:18962.5 , High:18965.2 , Low:18961.6 , Close:18963.55
+[INFO]: Candle:2023-06-28 11:58:00 , Open:18963.9 , High:18966.4 , Low:18962.95 , Close:18965.8
+[INFO]: Candle:2023-06-28 11:59:00 , Open:18966.3 , High:18971.7 , Low:18965.6 , Close:18971.5
+[INFO]: Candle:2023-06-28 12:00:00 , Open:18971.4 , High:18975.55 , Low:18971.4 , Close:18975.05
+[INFO]: Candle:2023-06-28 12:01:00 , Open:18974.15 , High:18977.35 , Low:18973.1 , Close:18975.95
+[INFO]: Candle:2023-06-28 12:02:00 , Open:18976.75 , High:18976.75 , Low:18973.1 , Close:18973.5
+[INFO]: Candle:2023-06-28 12:04:00 , Open:18975.2 , High:18980.15 , Low:18975.05 , Close:18978.95
+[INFO]: Candle:2023-06-28 12:05:00 , Open:18979.1 , High:18979.8 , Low:18975.85 , Close:18977.1
+[INFO]: Candle:2023-06-28 12:06:00 , Open:18976.6 , High:18977.5 , Low:18975.15 , Close:18975.7
+[INFO]: Candle:2023-06-28 12:07:00 , Open:18975.65 , High:18981.15 , Low:18975.65 , Close:18977.75
+[INFO]: Candle:2023-06-28 12:08:00 , Open:18978.7 , High:18979.0 , Low:18976.25 , Close:18976.6
+[INFO]: Candle:2023-06-28 12:09:00 , Open:18976.75 , High:18978.4 , Low:18975.65 , Close:18977.8
+[INFO]: Candle:2023-06-28 12:10:00 , Open:18977.65 , High:18978.85 , Low:18964.7 , Close:18966.15
+[INFO]: Candle:2023-06-28 12:11:00 , Open:18965.45 , High:18967.45 , Low:18964.6 , Close:18966.0
+[INFO]: Candle:2023-06-28 12:12:00 , Open:18965.6 , High:18966.4 , Low:18957.4 , Close:18957.4
+[INFO]: Candle:2023-06-28 12:13:00 , Open:18956.1 , High:18959.65 , Low:18956.1 , Close:18957.6
+[INFO]: Candle:2023-06-28 12:14:00 , Open:18957.95 , High:18963.5 , Low:18956.6 , Close:18956.6
+[INFO]: Candle:2023-06-28 12:15:00 , Open:18957.0 , High:18957.35 , Low:18953.35 , Close:18953.35
+[INFO]: Candle:2023-06-28 12:16:00 , Open:18953.9 , High:18958.5 , Low:18953.85 , Close:18956.1
+[INFO]: Candle:2023-06-28 12:17:00 , Open:18955.65 , High:18962.65 , Low:18955.3 , Close:18962.2
+[INFO]: Candle:2023-06-28 12:18:00 , Open:18960.7 , High:18962.45 , Low:18959.35 , Close:18960.7
+[INFO]: Candle:2023-06-28 12:19:00 , Open:18960.45 , High:18963.9 , Low:18960.3 , Close:18962.95
+[INFO]: Candle:2023-06-28 12:20:00 , Open:18962.45 , High:18964.9 , Low:18960.65 , Close:18963.35
+[INFO]: Candle:2023-06-28 12:21:00 , Open:18963.05 , High:18965.5 , Low:18962.1 , Close:18963.9
+[INFO]: Candle:2023-06-28 12:22:00 , Open:18963.85 , High:18967.5 , Low:18961.95 , Close:18965.95
+[INFO]: Candle:2023-06-28 12:23:00 , Open:18966.65 , High:18966.95 , Low:18962.35 , Close:18964.85
+[INFO]: Candle:2023-06-28 12:24:00 , Open:18964.65 , High:18966.45 , Low:18958.45 , Close:18958.45
+[INFO]: Candle:2023-06-28 12:25:00 , Open:18959.25 , High:18963.7 , Low:18958.9 , Close:18963.7
+[INFO]: Candle:2023-06-28 12:26:00 , Open:18963.6 , High:18967.95 , Low:18962.8 , Close:18967.75
+[INFO]: Candle:2023-06-28 12:27:00 , Open:18967.6 , High:18973.0 , Low:18967.6 , Close:18972.45
+[INFO]: Candle:2023-06-28 12:28:00 , Open:18971.85 , High:18973.65 , Low:18971.25 , Close:18973.65
+[INFO]: Candle:2023-06-28 12:30:00 , Open:18973.1 , High:18974.85 , Low:18970.8 , Close:18971.8
+[INFO]: Candle:2023-06-28 12:31:00 , Open:18972.35 , High:18974.0 , Low:18971.35 , Close:18971.35
+[INFO]: Candle:2023-06-28 12:32:00 , Open:18970.95 , High:18972.85 , Low:18968.25 , Close:18971.0
+[INFO]: Candle:2023-06-28 12:33:00 , Open:18970.7 , High:18973.55 , Low:18968.55 , Close:18972.7
+[INFO]: Candle:2023-06-28 12:34:00 , Open:18971.95 , High:18972.85 , Low:18970.2 , Close:18971.0
+[INFO]: Candle:2023-06-28 12:35:00 , Open:18971.25 , High:18972.25 , Low:18965.65 , Close:18967.6
+[INFO]: Candle:2023-06-28 12:36:00 , Open:18968.95 , High:18972.25 , Low:18967.45 , Close:18969.55
+[INFO]: Candle:2023-06-28 12:37:00 , Open:18969.5 , High:18971.15 , Low:18966.05 , Close:18968.45
+[INFO]: Candle:2023-06-28 12:38:00 , Open:18968.15 , High:18971.4 , Low:18967.35 , Close:18970.2
+[INFO]: Candle:2023-06-28 12:39:00 , Open:18969.95 , High:18970.2 , Low:18966.7 , Close:18968.6
+[INFO]: Candle:2023-06-28 12:40:00 , Open:18968.15 , High:18970.05 , Low:18966.4 , Close:18966.95
+[INFO]: Candle:2023-06-28 12:41:00 , Open:18967.0 , High:18969.1 , Low:18961.6 , Close:18962.35
+[INFO]: Candle:2023-06-28 12:42:00 , Open:18962.1 , High:18966.95 , Low:18957.75 , Close:18966.6
+[INFO]: Candle:2023-06-28 12:43:00 , Open:18965.7 , High:18966.35 , Low:18963.1 , Close:18965.4
+[INFO]: Candle:2023-06-28 12:44:00 , Open:18965.1 , High:18966.35 , Low:18961.0 , Close:18961.0
+[INFO]: Candle:2023-06-28 12:45:00 , Open:18960.9 , High:18964.4 , Low:18960.45 , Close:18961.5
+[INFO]: Candle:2023-06-28 12:46:00 , Open:18961.0 , High:18961.65 , Low:18958.05 , Close:18959.45
+[INFO]: Candle:2023-06-28 12:47:00 , Open:18958.7 , High:18961.2 , Low:18958.25 , Close:18959.25
+[INFO]: Candle:2023-06-28 12:48:00 , Open:18959.0 , High:18961.5 , Low:18958.15 , Close:18961.5
+[INFO]: Candle:2023-06-28 12:49:00 , Open:18961.1 , High:18970.35 , Low:18960.15 , Close:18969.65
+[INFO]: Candle:2023-06-28 12:50:00 , Open:18970.25 , High:18971.8 , Low:18970.0 , Close:18971.6
+[INFO]: Candle:2023-06-28 12:51:00 , Open:18971.2 , High:18980.3 , Low:18971.2 , Close:18979.5
+[INFO]: Candle:2023-06-28 12:52:00 , Open:18979.85 , High:18982.85 , Low:18979.45 , Close:18980.0
+[INFO]: Candle:2023-06-28 12:53:00 , Open:18980.35 , High:18984.15 , Low:18980.0 , Close:18983.4
+[INFO]: Candle:2023-06-28 12:54:00 , Open:18983.6 , High:18983.65 , Low:18978.6 , Close:18978.85
+[INFO]: Candle:2023-06-28 12:55:00 , Open:18978.45 , High:18978.45 , Low:18973.05 , Close:18975.15
+[INFO]: Candle:2023-06-28 12:56:00 , Open:18974.9 , High:18979.05 , Low:18974.9 , Close:18977.45
+[INFO]: Candle:2023-06-28 12:57:00 , Open:18977.0 , High:18984.4 , Low:18977.0 , Close:18984.4
+[INFO]: Candle:2023-06-28 12:58:00 , Open:18984.2 , High:18984.6 , Low:18980.35 , Close:18981.45
+[INFO]: Candle:2023-06-28 12:59:00 , Open:18979.9 , High:18981.8 , Low:18979.1 , Close:18980.65
+[INFO]: Candle:2023-06-28 13:00:00 , Open:18980.35 , High:18981.7 , Low:18978.35 , Close:18980.7
+[INFO]: Candle:2023-06-28 13:01:00 , Open:18980.1 , High:18981.0 , Low:18977.8 , Close:18978.45
+[INFO]: Candle:2023-06-28 13:02:00 , Open:18978.05 , High:18979.15 , Low:18975.7 , Close:18977.25
+[INFO]: Candle:2023-06-28 13:03:00 , Open:18976.9 , High:18987.65 , Low:18976.9 , Close:18987.65
+[INFO]: Candle:2023-06-28 13:04:00 , Open:18986.7 , High:18989.4 , Low:18983.75 , Close:18984.05
+[INFO]: Candle:2023-06-28 13:05:00 , Open:18984.6 , High:18987.6 , Low:18984.6 , Close:18986.75
+[INFO]: Candle:2023-06-28 13:06:00 , Open:18986.45 , High:18988.45 , Low:18985.8 , Close:18987.3
+[INFO]: Candle:2023-06-28 13:07:00 , Open:18987.2 , High:18989.0 , Low:18986.45 , Close:18986.45
+[INFO]: Candle:2023-06-28 13:08:00 , Open:18986.65 , High:18986.95 , Low:18985.25 , Close:18986.45
+[INFO]: Candle:2023-06-28 13:09:00 , Open:18986.8 , High:18989.75 , Low:18981.0 , Close:18981.0
+[INFO]: Candle:2023-06-28 13:10:00 , Open:18979.9 , High:18983.4 , Low:18977.4 , Close:18982.75
+[INFO]: Candle:2023-06-28 13:11:00 , Open:18982.95 , High:18989.3 , Low:18982.3 , Close:18989.05
+[INFO]: Candle:2023-06-28 13:12:00 , Open:18989.05 , High:18992.45 , Low:18988.65 , Close:18991.4
+[INFO]: Candle:2023-06-28 13:13:00 , Open:18991.1 , High:18994.25 , Low:18991.1 , Close:18994.25
+[INFO]: Candle:2023-06-28 13:14:00 , Open:18993.65 , High:18994.9 , Low:18991.5 , Close:18994.9
+[INFO]: Candle:2023-06-28 13:15:00 , Open:18994.2 , High:18996.8 , Low:18991.35 , Close:18996.75
+[INFO]: Candle:2023-06-28 13:16:00 , Open:18996.55 , High:18998.05 , Low:18994.8 , Close:18995.65
+[INFO]: Candle:2023-06-28 13:17:00 , Open:18995.7 , High:18996.95 , Low:18994.35 , Close:18995.5
+[INFO]: Candle:2023-06-28 13:18:00 , Open:18995.85 , High:18997.4 , Low:18993.75 , Close:18997.1
+[INFO]: Candle:2023-06-28 13:19:00 , Open:18996.95 , High:18997.85 , Low:18995.2 , Close:18997.25
+[INFO]: Candle:2023-06-28 13:20:00 , Open:18997.7 , High:18999.0 , Low:18993.65 , Close:18996.65
+[INFO]: Candle:2023-06-28 13:21:00 , Open:18996.3 , High:19002.5 , Low:18995.9 , Close:19002.5
+[INFO]: Candle:2023-06-28 13:23:00 , Open:18995.3 , High:18995.55 , Low:18990.85 , Close:18992.5
+[INFO]: Candle:2023-06-28 13:24:00 , Open:18992.05 , High:18995.75 , Low:18991.9 , Close:18994.8
+[INFO]: Candle:2023-06-28 13:25:00 , Open:18994.05 , High:18994.05 , Low:18989.8 , Close:18992.0
+[INFO]: Candle:2023-06-28 13:26:00 , Open:18992.55 , High:18995.3 , Low:18991.05 , Close:18991.6
+[INFO]: Candle:2023-06-28 13:27:00 , Open:18991.2 , High:18992.45 , Low:18986.15 , Close:18988.2
+[INFO]: Candle:2023-06-28 13:28:00 , Open:18988.3 , High:18992.6 , Low:18988.15 , Close:18991.55
+[INFO]: Candle:2023-06-28 13:29:00 , Open:18991.55 , High:18994.9 , Low:18989.7 , Close:18994.25
+[INFO]: Candle:2023-06-28 13:30:00 , Open:18993.7 , High:18999.1 , Low:18993.0 , Close:18996.9
+[INFO]: Candle:2023-06-28 13:31:00 , Open:18997.95 , High:18998.35 , Low:18994.1 , Close:18994.1
+[INFO]: Candle:2023-06-28 13:32:00 , Open:18994.0 , High:18994.7 , Low:18990.75 , Close:18992.35
+[INFO]: Candle:2023-06-28 13:33:00 , Open:18993.05 , High:18997.25 , Low:18992.0 , Close:18996.4
+[INFO]: Candle:2023-06-28 13:34:00 , Open:18995.8 , High:18997.9 , Low:18993.75 , Close:18996.65
+[INFO]: Candle:2023-06-28 13:35:00 , Open:18996.65 , High:18997.85 , Low:18993.5 , Close:18996.65
+[INFO]: Candle:2023-06-28 13:36:00 , Open:18997.0 , High:18997.0 , Low:18993.4 , Close:18994.55
+[INFO]: Candle:2023-06-28 13:37:00 , Open:18994.85 , High:18998.3 , Low:18993.6 , Close:18997.8
+[INFO]: Candle:2023-06-28 13:38:00 , Open:18997.2 , High:19002.6 , Low:18996.15 , Close:19001.75
+[INFO]: Candle:2023-06-28 13:39:00 , Open:19000.95 , High:19003.15 , Low:18999.75 , Close:19001.25
+[INFO]: Candle:2023-06-28 13:40:00 , Open:19001.4 , High:19004.85 , Low:19000.0 , Close:19003.9
+[INFO]: Candle:2023-06-28 13:41:00 , Open:19003.65 , High:19004.15 , Low:18999.65 , Close:18999.65
+[INFO]: Candle:2023-06-28 13:42:00 , Open:18999.55 , High:19001.8 , Low:18997.0 , Close:19000.2
+[INFO]: Candle:2023-06-28 13:43:00 , Open:18999.35 , High:19000.15 , Low:18993.55 , Close:18997.4
+[INFO]: Candle:2023-06-28 13:44:00 , Open:18997.7 , High:19010.1 , Low:18997.7 , Close:19008.15
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 13:45:00.381803 shift straddle upward----------------closed NIFTY28JUN2318950PE short position @11.95
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 13:45:00.381803 shift straddle upward----------------closed NIFTY28JUN2318950CE short position @67.6
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 13:45:00.381803-------------built NIFTY28JUN2319050PE short position
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 13:45:00.381803-------------built NIFTY28JUN2319050CE short position
+[INFO]: lt:[19000, 19050]
+[INFO]: Candle:2023-06-28 13:45:00 , Open:19009.6 , High:19010.4 , Low:18997.1 , Close:18998.45
+[INFO]: Candle:2023-06-28 13:46:00 , Open:18998.0 , High:19002.95 , Low:18998.0 , Close:19000.9
+[INFO]: Candle:2023-06-28 13:47:00 , Open:19000.25 , High:19003.0 , Low:18998.35 , Close:19001.8
+[INFO]: Candle:2023-06-28 13:48:00 , Open:19001.1 , High:19003.55 , Low:18999.25 , Close:19003.55
+[INFO]: Candle:2023-06-28 13:49:00 , Open:19001.75 , High:19009.5 , Low:19001.3 , Close:19007.9
+[INFO]: Candle:2023-06-28 13:50:00 , Open:19007.5 , High:19008.15 , Low:19004.25 , Close:19006.85
+[INFO]: Candle:2023-06-28 13:51:00 , Open:19006.5 , High:19009.45 , Low:19003.25 , Close:19003.3
+[INFO]: Candle:2023-06-28 13:52:00 , Open:19004.05 , High:19004.25 , Low:18998.9 , Close:19001.6
+[INFO]: Candle:2023-06-28 13:53:00 , Open:19000.8 , High:19002.4 , Low:18997.85 , Close:19000.6
+[INFO]: Candle:2023-06-28 13:54:00 , Open:19000.9 , High:19003.4 , Low:19000.2 , Close:19001.45
+[INFO]: Candle:2023-06-28 13:55:00 , Open:19001.05 , High:19003.05 , Low:18993.6 , Close:18995.25
+[INFO]: Candle:2023-06-28 13:56:00 , Open:18995.0 , High:18995.65 , Low:18991.45 , Close:18992.5
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 13:57:00.258165 shift straddle downward---------------------closed NIFTY28JUN2319050PE short position @72.6
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 13:57:00.258165 shift straddle downward---------------------closed NIFTY28JUN2319050CE short position @7.35
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 13:57:00.258165-------------built NIFTY28JUN2318950PE short position 
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 13:57:00.258165-------------built NIFTY28JUN2318950CE short position
+[INFO]: lt:[18950, 19000]
+[INFO]: Candle:2023-06-28 13:57:00 , Open:18992.65 , High:18993.1 , Low:18986.35 , Close:18990.95
+[INFO]: Candle:2023-06-28 13:58:00 , Open:18990.65 , High:18991.65 , Low:18988.0 , Close:18989.1
+[INFO]: Candle:2023-06-28 13:59:00 , Open:18988.9 , High:18992.2 , Low:18988.9 , Close:18991.25
+[INFO]: Candle:2023-06-28 14:00:00 , Open:18991.5 , High:18999.25 , Low:18990.3 , Close:18997.45
+[INFO]: Candle:2023-06-28 14:01:00 , Open:18997.3 , High:18999.9 , Low:18996.6 , Close:18999.8
+[INFO]: Candle:2023-06-28 14:02:00 , Open:18999.2 , High:19000.1 , Low:18997.0 , Close:19000.1
+[INFO]: Candle:2023-06-28 14:03:00 , Open:18999.35 , High:19000.1 , Low:18997.05 , Close:18998.8
+[INFO]: Candle:2023-06-28 14:04:00 , Open:18998.45 , High:18998.75 , Low:18996.0 , Close:18997.95
+[INFO]: Candle:2023-06-28 14:05:00 , Open:18997.35 , High:18999.05 , Low:18996.8 , Close:18998.5
+[INFO]: Candle:2023-06-28 14:06:00 , Open:18999.1 , High:19004.55 , Low:18996.6 , Close:18997.0
+[INFO]: Candle:2023-06-28 14:07:00 , Open:18996.55 , High:18996.55 , Low:18989.05 , Close:18993.85
+[INFO]: Candle:2023-06-28 14:08:00 , Open:18994.2 , High:18994.2 , Low:18990.75 , Close:18990.9
+[INFO]: Candle:2023-06-28 14:09:00 , Open:18990.25 , High:18991.15 , Low:18988.3 , Close:18989.5
+[INFO]: Candle:2023-06-28 14:10:00 , Open:18990.15 , High:18993.75 , Low:18988.3 , Close:18993.15
+[INFO]: Candle:2023-06-28 14:11:00 , Open:18994.05 , High:18994.45 , Low:18991.05 , Close:18991.3
+[INFO]: Candle:2023-06-28 14:12:00 , Open:18991.95 , High:18995.8 , Low:18990.9 , Close:18995.6
+[INFO]: Candle:2023-06-28 14:13:00 , Open:18995.55 , High:18998.1 , Low:18989.1 , Close:18989.2
+[INFO]: Candle:2023-06-28 14:14:00 , Open:18988.55 , High:18991.3 , Low:18977.95 , Close:18979.55
+[INFO]: Candle:2023-06-28 14:15:00 , Open:18979.75 , High:18983.8 , Low:18972.5 , Close:18974.2
+[INFO]: Candle:2023-06-28 14:16:00 , Open:18973.9 , High:18979.2 , Low:18970.35 , Close:18979.2
+[INFO]: Candle:2023-06-28 14:17:00 , Open:18978.55 , High:18986.25 , Low:18978.15 , Close:18983.95
+[INFO]: Candle:2023-06-28 14:18:00 , Open:18983.75 , High:18991.4 , Low:18983.75 , Close:18986.6
+[INFO]: Candle:2023-06-28 14:19:00 , Open:18986.95 , High:18988.8 , Low:18983.05 , Close:18985.65
+[INFO]: Candle:2023-06-28 14:20:00 , Open:18984.95 , High:18987.15 , Low:18981.4 , Close:18982.65
+[INFO]: Candle:2023-06-28 14:21:00 , Open:18983.0 , High:18988.05 , Low:18980.45 , Close:18985.8
+[INFO]: Candle:2023-06-28 14:22:00 , Open:18986.7 , High:18993.15 , Low:18986.5 , Close:18987.35
+[INFO]: Candle:2023-06-28 14:23:00 , Open:18986.85 , High:18992.3 , Low:18986.85 , Close:18991.55
+[INFO]: Candle:2023-06-28 14:24:00 , Open:18991.35 , High:18997.9 , Low:18991.35 , Close:18993.95
+[INFO]: Candle:2023-06-28 14:26:00 , Open:18999.35 , High:19006.4 , Low:18999.15 , Close:19000.85
+[INFO]: Candle:2023-06-28 14:27:00 , Open:19001.25 , High:19005.95 , Low:18999.6 , Close:19004.0
+[INFO]: Candle:2023-06-28 14:28:00 , Open:19002.45 , High:19007.95 , Low:18999.6 , Close:19000.1
+[INFO]: Candle:2023-06-28 14:29:00 , Open:18999.5 , High:19002.9 , Low:18998.1 , Close:18999.2
+[INFO]: Candle:2023-06-28 14:30:00 , Open:18999.65 , High:19004.75 , Low:18997.45 , Close:18997.45
+[INFO]: Candle:2023-06-28 14:31:00 , Open:18997.35 , High:18999.35 , Low:18994.1 , Close:18994.1
+[INFO]: Candle:2023-06-28 14:32:00 , Open:18993.65 , High:18997.75 , Low:18991.0 , Close:18997.4
+[INFO]: Candle:2023-06-28 14:33:00 , Open:18998.1 , High:19001.35 , Low:18995.75 , Close:18996.3
+[INFO]: Candle:2023-06-28 14:34:00 , Open:18996.4 , High:18997.5 , Low:18993.5 , Close:18993.5
+[INFO]: Candle:2023-06-28 14:36:00 , Open:18990.6 , High:18994.6 , Low:18989.75 , Close:18989.75
+[INFO]: Candle:2023-06-28 14:39:00 , Open:18992.35 , High:18993.45 , Low:18986.2 , Close:18989.05
+[INFO]: Candle:2023-06-28 14:40:00 , Open:18988.65 , High:18991.2 , Low:18985.15 , Close:18985.15
+[INFO]: Candle:2023-06-28 14:41:00 , Open:18985.0 , High:18985.95 , Low:18976.65 , Close:18976.65
+[INFO]: Candle:2023-06-28 14:42:00 , Open:18977.15 , High:18981.7 , Low:18975.0 , Close:18977.05
+[INFO]: Candle:2023-06-28 14:43:00 , Open:18977.9 , High:18979.3 , Low:18972.15 , Close:18973.2
+[INFO]: Candle:2023-06-28 14:44:00 , Open:18973.15 , High:18979.25 , Low:18971.05 , Close:18977.8
+[INFO]: Candle:2023-06-28 14:45:00 , Open:18978.5 , High:18984.35 , Low:18978.25 , Close:18983.65
+[INFO]: Candle:2023-06-28 14:46:00 , Open:18982.85 , High:18984.25 , Low:18980.75 , Close:18982.85
+[INFO]: Candle:2023-06-28 14:47:00 , Open:18982.95 , High:18985.25 , Low:18982.5 , Close:18982.85
+[INFO]: Candle:2023-06-28 14:48:00 , Open:18982.65 , High:18983.4 , Low:18974.5 , Close:18978.75
+[INFO]: Candle:2023-06-28 14:49:00 , Open:18978.25 , High:18981.25 , Low:18977.95 , Close:18980.75
+[INFO]: Candle:2023-06-28 14:50:00 , Open:18980.5 , High:18988.85 , Low:18978.85 , Close:18986.75
+[INFO]: Candle:2023-06-28 14:51:00 , Open:18987.3 , High:18987.3 , Low:18980.15 , Close:18981.55
+[INFO]: Candle:2023-06-28 14:52:00 , Open:18981.6 , High:18982.5 , Low:18979.65 , Close:18981.55
+[INFO]: Candle:2023-06-28 14:53:00 , Open:18982.65 , High:18988.85 , Low:18980.2 , Close:18986.9
+[INFO]: Candle:2023-06-28 14:54:00 , Open:18987.15 , High:18987.15 , Low:18978.25 , Close:18978.3
+[INFO]: Candle:2023-06-28 14:55:00 , Open:18977.95 , High:18979.15 , Low:18976.0 , Close:18977.25
+[INFO]: Candle:2023-06-28 14:56:00 , Open:18977.7 , High:18984.75 , Low:18977.7 , Close:18983.65
+[INFO]: Candle:2023-06-28 14:57:00 , Open:18983.85 , High:18985.0 , Low:18979.15 , Close:18979.85
+[INFO]: Candle:2023-06-28 14:58:00 , Open:18979.35 , High:18980.25 , Low:18975.75 , Close:18978.95
+[INFO]: Candle:2023-06-28 14:59:00 , Open:18979.45 , High:18985.5 , Low:18978.7 , Close:18980.65
+[INFO]: Candle:2023-06-28 15:00:00 , Open:18981.05 , High:18989.35 , Low:18972.55 , Close:18973.35
+[INFO]: Candle:2023-06-28 15:01:00 , Open:18973.5 , High:18975.0 , Low:18966.35 , Close:18967.05
+[INFO]: Candle:2023-06-28 15:02:00 , Open:18967.45 , High:18967.45 , Low:18960.2 , Close:18966.15
+[INFO]: Candle:2023-06-28 15:03:00 , Open:18965.1 , High:18967.15 , Low:18959.85 , Close:18966.9
+[INFO]: Candle:2023-06-28 15:04:00 , Open:18966.75 , High:18966.75 , Low:18950.95 , Close:18953.0
+[INFO]: Candle:2023-06-28 15:05:00 , Open:18951.8 , High:18952.45 , Low:18944.75 , Close:18952.25
+[INFO]: ..........................START........................
+[INFO]: Candle:2023-06-28 15:06:00 , Open:18952.6 , High:18958.4 , Low:18951.25 , Close:18957.35
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 15:07:00.245742 expiry settlement-------------closed NIFTY28JUN2319000PE position @53.5
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 15:07:00.245742 expiry settlement-------------closed NIFTY28JUN2319000CE position @0.3
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 15:07:00.245742 expiry settlement-------------closed NIFTY28JUN2318950PE position @10.95
+[INFO]: Limit order publish status is 1
+[INFO]: 2023-06-28 15:07:00.245742 expiry settlement-------------closed NIFTY28JUN2318950CE position @8.55
+[INFO]: ..............stop algo...............
+[INFO]: ..........................START........................
+[INFO]: Candle:2023-06-28 15:08:00 , Open:18957.7 , High:18967.6 , Low:18955.45 , Close:18961.65
+[INFO]: ..............stop algo...............
+[INFO]: ..........................START........................
+[INFO]: Candle:2023-06-28 15:10:00 , Open:18965.1 , High:18970.65 , Low:18963.2 , Close:18969.25
+[INFO]: ..............stop algo...............
+[INFO]: ..........................START........................
+[INFO]: Candle:2023-06-28 15:12:00 , Open:18965.35 , High:18972.45 , Low:18963.4 , Close:18969.5
+[INFO]: ..............stop algo...............
+[INFO]: ..........................START........................
+[INFO]: Candle:2023-06-28 15:14:00 , Open:18974.75 , High:18977.2 , Low:18971.7 , Close:18972.95
+[INFO]: ..............stop algo...............
+[INFO]: ..........................START........................
+[INFO]: Candle:2023-06-28 15:16:00 , Open:18967.0 , High:18972.15 , Low:18966.75 , Close:18970.8
+[INFO]: ..............stop algo...............
+[INFO]: ..........................START........................
+[INFO]: Candle:2023-06-28 15:18:00 , Open:18971.8 , High:18977.85 , Low:18971.5 , Close:18976.7
+[INFO]: ..............stop algo...............
+[INFO]: ..........................START........................
+[INFO]: Candle:2023-06-28 15:20:00 , Open:18977.75 , High:18986.0 , Low:18976.45 , Close:18983.1
+[INFO]: ..............stop algo...............
+[INFO]: ..........................START........................
+[INFO]: Candle:2023-06-28 15:22:00 , Open:18985.15 , High:18986.1 , Low:18981.2 , Close:18982.65
+[INFO]: ..............stop algo...............
+[INFO]: ..........................START........................
+[INFO]: Candle:2023-06-28 15:24:00 , Open:18987.8 , High:18988.05 , Low:18983.55 , Close:18984.05
+[INFO]: ..............stop algo...............
+[INFO]: ..........................START........................
+[INFO]: Candle:2023-06-28 15:26:00 , Open:18982.45 , High:18985.05 , Low:18981.2 , Close:18984.55
+[INFO]: ..............stop algo...............
+[INFO]: ..........................START........................
+[INFO]: Candle:2023-06-28 15:28:00 , Open:18988.2 , High:18989.55 , Low:18981.45 , Close:18986.7
+[INFO]: ..............stop algo...............
+[INFO]: ..........................START........................

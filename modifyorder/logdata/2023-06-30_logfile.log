@@ -1,0 +1,34 @@
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 63
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 63
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 63
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 63
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2040832
+[INFO]: 2023-06-30 09:39:07.073006 order_id 202306302400004938 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-06-30 09:39:07.276902 order_id 202306302400004939 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-06-30 09:48:06.980040 modifying order_id 202306302400006479 with limitPrice @112.69999999999999
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-30 09:48:07.384512 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306302400006479'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-30 09:48:07.384699 order_id 202306302400006479 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-30 09:48:07.589145 order_id 202306302400006480 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-06-30 09:48:11.010688 order_id 202306302400006491 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-06-30 09:48:13.425145 order_id 202306302400006479 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-06-30 10:15:06.765512 order_id 202306302400009275 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-06-30 10:15:07.371313 order_id 202306302400009276 filled,removing from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-06-30 10:15:07.574232 order_id 202306302400009278 filled,removing from modifyOrder queue
+[INFO]: ..

@@ -1,0 +1,794 @@
+Tue Jun 27 09:03:01 IST 2023
+[PM2] Starting /root/work/datafeeder/symboladder.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 60526    │ 0s     │ 0    │ online    │ 0%       │ 6.5mb    │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/datafeeder/tickdata.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 60526    │ 30s    │ 0    │ online    │ 0%       │ 105.8mb  │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 60542    │ 0s     │ 0    │ online    │ 0%       │ 5.9mb    │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/tradeExecutor/ordersender.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ ordersender    │ default     │ N/A     │ fork    │ 60565    │ 0s     │ 0    │ online    │ 0%       │ 6.4mb    │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 60526    │ 36s    │ 0    │ online    │ 0%       │ 105.8mb  │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 60542    │ 5s     │ 0    │ online    │ 0%       │ 105.7mb  │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/orderResponse/responsehandling.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ ordersender         │ default     │ N/A     │ fork    │ 60565    │ 5s     │ 0    │ online    │ 0%       │ 113.7mb  │ root     │ disabled │
+│ 3  │ responsehandling    │ default     │ N/A     │ fork    │ 60600    │ 0s     │ 0    │ online    │ 0%       │ 7.0mb    │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 60526    │ 41s    │ 0    │ online    │ 0%       │ 105.8mb  │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 60542    │ 11s    │ 0    │ online    │ 0%       │ 105.7mb  │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/modifyorder/modifyorder.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 4  │ modifyorder         │ default     │ N/A     │ fork    │ 60630    │ 0s     │ 0    │ online    │ 0%       │ 5.5mb    │ root     │ disabled │
+│ 2  │ ordersender         │ default     │ N/A     │ fork    │ 60565    │ 11s    │ 0    │ online    │ 0%       │ 113.7mb  │ root     │ disabled │
+│ 3  │ responsehandling    │ default     │ N/A     │ fork    │ 60600    │ 5s     │ 0    │ online    │ 0%       │ 84.5mb   │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 60526    │ 47s    │ 0    │ online    │ 0%       │ 105.8mb  │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 60542    │ 16s    │ 0    │ online    │ 0%       │ 105.7mb  │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/HopperN/strategyLauncher.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 5  │ HopperN             │ default     │ N/A     │ fork    │ 60663    │ 0s     │ 0    │ online    │ 0%       │ 6.5mb    │ root     │ disabled │
+│ 4  │ modifyorder         │ default     │ N/A     │ fork    │ 60630    │ 5s     │ 0    │ online    │ 0%       │ 113.6mb  │ root     │ disabled │
+│ 2  │ ordersender         │ default     │ N/A     │ fork    │ 60565    │ 16s    │ 0    │ online    │ 0%       │ 113.7mb  │ root     │ disabled │
+│ 3  │ responsehandling    │ default     │ N/A     │ fork    │ 60600    │ 11s    │ 0    │ online    │ 0%       │ 84.5mb   │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 60526    │ 53s    │ 0    │ online    │ 0%       │ 105.8mb  │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 60542    │ 22s    │ 0    │ online    │ 0%       │ 105.7mb  │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Tue Jun 27 15:35:01 IST 2023
+/root/work/stop.sh: 2: pm2: not found
+Wed Jun 28 09:03:01 IST 2023
+[PM2] Starting /root/work/datafeeder/symboladder.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 675074   │ 0s     │ 0    │ online    │ 0%       │ 7.2mb    │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/datafeeder/tickdata.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 675074   │ 20s    │ 0    │ online    │ 0%       │ 106.8mb  │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 675090   │ 0s     │ 0    │ online    │ 0%       │ 7.1mb    │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/datafeeder/candle.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 675113   │ 0s     │ 0    │ online    │ 0%       │ 7.0mb    │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 675074   │ 26s    │ 0    │ online    │ 0%       │ 106.8mb  │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 675090   │ 5s     │ 0    │ online    │ 0%       │ 106.5mb  │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/tradeExecutor/ordersender.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 675113   │ 0s     │ 0    │ online    │ 0%       │ 73.5mb   │ root     │ disabled │
+│ 3  │ ordersender    │ default     │ N/A     │ fork    │ 675127   │ 0s     │ 0    │ online    │ 0%       │ 7.2mb    │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 675074   │ 26s    │ 0    │ online    │ 0%       │ 106.8mb  │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 675090   │ 6s     │ 0    │ online    │ 0%       │ 106.5mb  │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/orderResponse/responsehandling.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 675113   │ 6s     │ 0    │ online    │ 0%       │ 114.2mb  │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 675127   │ 5s     │ 0    │ online    │ 0%       │ 114.1mb  │ root     │ disabled │
+│ 4  │ responsehandling    │ default     │ N/A     │ fork    │ 675175   │ 0s     │ 0    │ online    │ 0%       │ 5.2mb    │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 675074   │ 32s    │ 0    │ online    │ 0%       │ 106.8mb  │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 675090   │ 11s    │ 0    │ online    │ 0%       │ 106.5mb  │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/modifyorder/modifyorder.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 675113   │ 11s    │ 0    │ online    │ 0%       │ 114.2mb  │ root     │ disabled │
+│ 5  │ modifyorder         │ default     │ N/A     │ fork    │ 675203   │ 0s     │ 0    │ online    │ 0%       │ 5.2mb    │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 675127   │ 11s    │ 0    │ online    │ 0%       │ 114.1mb  │ root     │ disabled │
+│ 4  │ responsehandling    │ default     │ N/A     │ fork    │ 675175   │ 5s     │ 0    │ online    │ 0%       │ 84.5mb   │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 675074   │ 38s    │ 0    │ online    │ 0%       │ 106.8mb  │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 675090   │ 17s    │ 0    │ online    │ 0%       │ 106.5mb  │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/HopperN/strategyLauncher.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 6  │ HopperN             │ default     │ N/A     │ fork    │ 675224   │ 0s     │ 0    │ online    │ 0%       │ 6.5mb    │ root     │ disabled │
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 675113   │ 17s    │ 0    │ online    │ 0%       │ 114.2mb  │ root     │ disabled │
+│ 5  │ modifyorder         │ default     │ N/A     │ fork    │ 675203   │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 675127   │ 16s    │ 0    │ online    │ 0%       │ 114.1mb  │ root     │ disabled │
+│ 4  │ responsehandling    │ default     │ N/A     │ fork    │ 675175   │ 11s    │ 0    │ online    │ 0%       │ 84.5mb   │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 675074   │ 43s    │ 0    │ online    │ 0%       │ 106.8mb  │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 675090   │ 23s    │ 0    │ online    │ 0%       │ 106.5mb  │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Wed Jun 28 15:35:01 IST 2023
+/root/work/stop.sh: 2: pm2: not found
+Thu Jun 29 09:03:01 IST 2023
+[PM2] Starting /root/work/datafeeder/symboladder.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 1568952  │ 0s     │ 0    │ online    │ 0%       │ 7.0mb    │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/datafeeder/tickdata.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 1568952  │ 20s    │ 0    │ online    │ 0%       │ 98.3mb   │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 1568969  │ 0s     │ 0    │ online    │ 0%       │ 6.0mb    │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/datafeeder/candle.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 1568986  │ 0s     │ 0    │ online    │ 0%       │ 7.0mb    │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 1568952  │ 26s    │ 0    │ online    │ 0%       │ 98.3mb   │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 1568969  │ 5s     │ 0    │ online    │ 0%       │ 98.4mb   │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/tradeExecutor/ordersender.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 1568986  │ 0s     │ 0    │ online    │ 50%      │ 74.1mb   │ root     │ disabled │
+│ 3  │ ordersender    │ default     │ N/A     │ fork    │ 1569007  │ 0s     │ 0    │ online    │ 0%       │ 6.5mb    │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 1568952  │ 26s    │ 0    │ online    │ 0%       │ 98.3mb   │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 1568969  │ 6s     │ 0    │ online    │ 0%       │ 98.4mb   │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/orderResponse/responsehandling.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 1568986  │ 6s     │ 0    │ online    │ 0%       │ 105.9mb  │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 1569007  │ 5s     │ 0    │ online    │ 0%       │ 106.4mb  │ root     │ disabled │
+│ 4  │ responsehandling    │ default     │ N/A     │ fork    │ 1569060  │ 0s     │ 0    │ online    │ 0%       │ 7.0mb    │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 1568952  │ 32s    │ 0    │ online    │ 0%       │ 98.3mb   │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 1568969  │ 12s    │ 0    │ online    │ 0%       │ 98.4mb   │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/modifyorder/modifyorder.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 1568986  │ 12s    │ 0    │ online    │ 0%       │ 105.9mb  │ root     │ disabled │
+│ 5  │ modifyorder         │ default     │ N/A     │ fork    │ 1569078  │ 0s     │ 0    │ online    │ 0%       │ 6.4mb    │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 1569007  │ 11s    │ 0    │ online    │ 0%       │ 106.4mb  │ root     │ disabled │
+│ 4  │ responsehandling    │ default     │ N/A     │ fork    │ 1569060  │ 5s     │ 0    │ online    │ 0%       │ 84.3mb   │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 1568952  │ 38s    │ 0    │ online    │ 0%       │ 98.3mb   │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 1568969  │ 17s    │ 0    │ online    │ 0%       │ 98.4mb   │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/HopperN/strategyLauncher.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 6  │ HopperN             │ default     │ N/A     │ fork    │ 1569099  │ 0s     │ 0    │ online    │ 0%       │ 7.4mb    │ root     │ disabled │
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 1568986  │ 17s    │ 0    │ online    │ 0%       │ 105.9mb  │ root     │ disabled │
+│ 5  │ modifyorder         │ default     │ N/A     │ fork    │ 1569078  │ 5s     │ 0    │ online    │ 0%       │ 106.2mb  │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 1569007  │ 17s    │ 0    │ online    │ 0%       │ 106.4mb  │ root     │ disabled │
+│ 4  │ responsehandling    │ default     │ N/A     │ fork    │ 1569060  │ 11s    │ 0    │ online    │ 0%       │ 84.3mb   │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 1568952  │ 43s    │ 0    │ online    │ 0%       │ 98.3mb   │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 1568969  │ 23s    │ 0    │ online    │ 0%       │ 98.4mb   │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Thu Jun 29 15:35:01 IST 2023
+[PM2][WARN] No process found
+Fri Jun 30 09:03:01 IST 2023
+[PM2] Starting /root/work/datafeeder/symboladder.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 1592292  │ 0s     │ 0    │ online    │ 0%       │ 6.9mb    │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/datafeeder/tickdata.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 1592292  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 1592305  │ 0s     │ 0    │ online    │ 0%       │ 6.8mb    │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/datafeeder/candle.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 1592319  │ 0s     │ 0    │ online    │ 0%       │ 7.1mb    │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 1592292  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 1592305  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/tradeExecutor/ordersender.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 1592319  │ 0s     │ 0    │ online    │ 0%       │ 73.8mb   │ root     │ disabled │
+│ 3  │ ordersender    │ default     │ N/A     │ fork    │ 1592331  │ 0s     │ 0    │ online    │ 0%       │ 6.9mb    │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 1592292  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 1592305  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/modifyorder/modifyorder.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 1592319  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 4  │ modifyorder    │ default     │ N/A     │ fork    │ 1592344  │ 0s     │ 0    │ online    │ 0%       │ 5.9mb    │ root     │ disabled │
+│ 3  │ ordersender    │ default     │ N/A     │ fork    │ 1592331  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 1592292  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 1592305  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/orderResponse/responsehandling.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 1592319  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 4  │ modifyorder         │ default     │ N/A     │ fork    │ 1592344  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 1592331  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 5  │ responsehandling    │ default     │ N/A     │ fork    │ 1592357  │ 0s     │ 0    │ online    │ 0%       │ 6.5mb    │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 1592292  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 1592305  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/orderResponse/missingresponse.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 1592319  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 6  │ missingresponse     │ default     │ N/A     │ fork    │ 1592371  │ 0s     │ 0    │ online    │ 0%       │ 6.9mb    │ root     │ disabled │
+│ 4  │ modifyorder         │ default     │ N/A     │ fork    │ 1592344  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 1592331  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 5  │ responsehandling    │ default     │ N/A     │ fork    │ 1592357  │ 0s     │ 0    │ online    │ 0%       │ 74.3mb   │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 1592292  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 1592305  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/HopperN/strategyLauncher.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 7  │ HopperN             │ default     │ N/A     │ fork    │ 1592389  │ 0s     │ 0    │ online    │ 0%       │ 6.5mb    │ root     │ disabled │
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 1592319  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 6  │ missingresponse     │ default     │ N/A     │ fork    │ 1592371  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 4  │ modifyorder         │ default     │ N/A     │ fork    │ 1592344  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 1592331  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 5  │ responsehandling    │ default     │ N/A     │ fork    │ 1592357  │ 6s     │ 0    │ online    │ 0%       │ 84.7mb   │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 1592292  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 1592305  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Fri Jun 30 15:35:01 IST 2023
+[PM2] Applying action deleteProcessId on app [all](ids: 0,1,2,3,4,5,6,7)
+[PM2] [symboladder](0) ✓
+[PM2] [HopperN](7) ✓
+[PM2] [tickdata](1) ✓
+[PM2] [missingresponse](6) ✓
+[PM2] [responsehandling](5) ✓
+[PM2] [modifyorder](4) ✓
+[PM2] [candle](2) ✓
+[PM2] [ordersender](3) ✓
+┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+└────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mon Jul  3 09:03:01 IST 2023
+[PM2] Starting /root/work/datafeeder/symboladder.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 2493880  │ 0s     │ 0    │ online    │ 0%       │ 5.9mb    │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/datafeeder/tickdata.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 2493880  │ 20s    │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 2493893  │ 0s     │ 0    │ online    │ 0%       │ 6.4mb    │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/datafeeder/candle.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 2493906  │ 0s     │ 0    │ online    │ 0%       │ 6.8mb    │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 2493880  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 2493893  │ 5s     │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/tradeExecutor/ordersender.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 2493906  │ 0s     │ 0    │ online    │ 0%       │ 73.4mb   │ root     │ disabled │
+│ 3  │ ordersender    │ default     │ N/A     │ fork    │ 2493918  │ 0s     │ 0    │ online    │ 0%       │ 6.8mb    │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 2493880  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 2493893  │ 6s     │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/modifyorder/modifyorder.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 2493906  │ 6s     │ 0    │ online    │ 0%       │ 73.4mb   │ root     │ disabled │
+│ 4  │ modifyorder    │ default     │ N/A     │ fork    │ 2493931  │ 0s     │ 0    │ online    │ 0%       │ 4.9mb    │ root     │ disabled │
+│ 3  │ ordersender    │ default     │ N/A     │ fork    │ 2493918  │ 5s     │ 0    │ online    │ 0%       │ 73.9mb   │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 2493880  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 2493893  │ 11s    │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/orderResponse/responsehandling.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 2493906  │ 11s    │ 0    │ online    │ 0%       │ 73.4mb   │ root     │ disabled │
+│ 4  │ modifyorder         │ default     │ N/A     │ fork    │ 2493931  │ 5s     │ 0    │ online    │ 0%       │ 73.7mb   │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 2493918  │ 11s    │ 0    │ online    │ 0%       │ 73.9mb   │ root     │ disabled │
+│ 5  │ responsehandling    │ default     │ N/A     │ fork    │ 2493944  │ 0s     │ 0    │ online    │ 0%       │ 6.9mb    │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 2493880  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 2493893  │ 17s    │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/orderResponse/missingresponse.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 2493906  │ 12s    │ 0    │ online    │ 0%       │ 73.4mb   │ root     │ disabled │
+│ 6  │ missingresponse     │ default     │ N/A     │ fork    │ 2493956  │ 0s     │ 0    │ online    │ 0%       │ 6.5mb    │ root     │ disabled │
+│ 4  │ modifyorder         │ default     │ N/A     │ fork    │ 2493931  │ 6s     │ 0    │ online    │ 0%       │ 73.7mb   │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 2493918  │ 11s    │ 0    │ online    │ 0%       │ 73.9mb   │ root     │ disabled │
+│ 5  │ responsehandling    │ default     │ N/A     │ fork    │ 2493944  │ 0s     │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 2493880  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 2493893  │ 18s    │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/HopperN/strategyLauncher.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 7  │ HopperN             │ default     │ N/A     │ fork    │ 2493969  │ 0s     │ 0    │ online    │ 0%       │ 5.9mb    │ root     │ disabled │
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 2493906  │ 18s    │ 0    │ online    │ 0%       │ 73.4mb   │ root     │ disabled │
+│ 6  │ missingresponse     │ default     │ N/A     │ fork    │ 2493956  │ 5s     │ 0    │ online    │ 0%       │ 73.7mb   │ root     │ disabled │
+│ 4  │ modifyorder         │ default     │ N/A     │ fork    │ 2493931  │ 11s    │ 0    │ online    │ 0%       │ 73.7mb   │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 2493918  │ 17s    │ 0    │ online    │ 0%       │ 73.9mb   │ root     │ disabled │
+│ 5  │ responsehandling    │ default     │ N/A     │ fork    │ 2493944  │ 6s     │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 2493880  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 2493893  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Mon Jul  3 15:35:01 IST 2023
+[PM2] Applying action deleteProcessId on app [all](ids: 0,1,2,3,4,5,6,7)
+[PM2] [symboladder](0) ✓
+[PM2] [responsehandling](5) ✓
+[PM2] [modifyorder](4) ✓
+[PM2] [ordersender](3) ✓
+[PM2] [candle](2) ✓
+[PM2] [tickdata](1) ✓
+[PM2] [missingresponse](6) ✓
+[PM2] [HopperN](7) ✓
+┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+└────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Tue Jul  4 09:03:01 IST 2023
+[PM2] Starting /root/work/datafeeder/symboladder.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 2501837  │ 0s     │ 0    │ online    │ 0%       │ 6.9mb    │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/datafeeder/tickdata.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 2501837  │ 20s    │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 2501850  │ 0s     │ 0    │ online    │ 0%       │ 5.9mb    │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/datafeeder/candle.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 2501863  │ 0s     │ 0    │ online    │ 0%       │ 5.4mb    │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 2501837  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 2501850  │ 5s     │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/tradeExecutor/ordersender.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 2501863  │ 0s     │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+│ 3  │ ordersender    │ default     │ N/A     │ fork    │ 2501875  │ 0s     │ 0    │ online    │ 0%       │ 6.8mb    │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 2501837  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 2501850  │ 6s     │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/modifyorder/modifyorder.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 2501863  │ 6s     │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+│ 4  │ modifyorder    │ default     │ N/A     │ fork    │ 2501888  │ 0s     │ 0    │ online    │ 0%       │ 6.5mb    │ root     │ disabled │
+│ 3  │ ordersender    │ default     │ N/A     │ fork    │ 2501875  │ 5s     │ 0    │ online    │ 0%       │ 73.7mb   │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 2501837  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 2501850  │ 11s    │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/orderResponse/responsehandling.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 2501863  │ 11s    │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+│ 4  │ modifyorder         │ default     │ N/A     │ fork    │ 2501888  │ 5s     │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 2501875  │ 11s    │ 0    │ online    │ 0%       │ 73.7mb   │ root     │ disabled │
+│ 5  │ responsehandling    │ default     │ N/A     │ fork    │ 2501901  │ 0s     │ 0    │ online    │ 0%       │ 6.9mb    │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 2501837  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 2501850  │ 17s    │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/orderResponse/missingresponse.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 2501863  │ 12s    │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+│ 6  │ missingresponse     │ default     │ N/A     │ fork    │ 2501913  │ 0s     │ 0    │ online    │ 0%       │ 7.0mb    │ root     │ disabled │
+│ 4  │ modifyorder         │ default     │ N/A     │ fork    │ 2501888  │ 6s     │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 2501875  │ 11s    │ 0    │ online    │ 0%       │ 73.7mb   │ root     │ disabled │
+│ 5  │ responsehandling    │ default     │ N/A     │ fork    │ 2501901  │ 0s     │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 2501837  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 2501850  │ 18s    │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/HopperN/strategyLauncher.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 7  │ HopperN             │ default     │ N/A     │ fork    │ 2501926  │ 0s     │ 0    │ online    │ 0%       │ 6.5mb    │ root     │ disabled │
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 2501863  │ 18s    │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+│ 6  │ missingresponse     │ default     │ N/A     │ fork    │ 2501913  │ 5s     │ 0    │ online    │ 0%       │ 73.5mb   │ root     │ disabled │
+│ 4  │ modifyorder         │ default     │ N/A     │ fork    │ 2501888  │ 11s    │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 2501875  │ 17s    │ 0    │ online    │ 0%       │ 73.7mb   │ root     │ disabled │
+│ 5  │ responsehandling    │ default     │ N/A     │ fork    │ 2501901  │ 6s     │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 2501837  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 2501850  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Tue Jul  4 15:35:01 IST 2023
+[PM2] Applying action deleteProcessId on app [all](ids: 0,1,2,3,4,5,6,7)
+[PM2] [missingresponse](6) ✓
+[PM2] [responsehandling](5) ✓
+[PM2] [modifyorder](4) ✓
+[PM2] [ordersender](3) ✓
+[PM2] [candle](2) ✓
+[PM2] [tickdata](1) ✓
+[PM2] [symboladder](0) ✓
+[PM2] [HopperN](7) ✓
+┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+└────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Wed Jul  5 09:03:02 IST 2023
+[PM2] Starting /root/work/datafeeder/symboladder.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 2509760  │ 0s     │ 0    │ online    │ 0%       │ 6.8mb    │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/datafeeder/tickdata.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 2509760  │ 20s    │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 2509773  │ 0s     │ 0    │ online    │ 0%       │ 5.9mb    │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/datafeeder/candle.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 2509786  │ 0s     │ 0    │ online    │ 0%       │ 7.1mb    │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 2509760  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 2509773  │ 5s     │ 0    │ online    │ 0%       │ 73.7mb   │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/tradeExecutor/ordersender.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 2509786  │ 0s     │ 0    │ online    │ 0%       │ 73.8mb   │ root     │ disabled │
+│ 3  │ ordersender    │ default     │ N/A     │ fork    │ 2509798  │ 0s     │ 0    │ online    │ 0%       │ 6.8mb    │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 2509760  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 2509773  │ 6s     │ 0    │ online    │ 0%       │ 73.7mb   │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/modifyorder/modifyorder.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 2509786  │ 6s     │ 0    │ online    │ 0%       │ 73.8mb   │ root     │ disabled │
+│ 4  │ modifyorder    │ default     │ N/A     │ fork    │ 2509811  │ 0s     │ 0    │ online    │ 0%       │ 6.9mb    │ root     │ disabled │
+│ 3  │ ordersender    │ default     │ N/A     │ fork    │ 2509798  │ 5s     │ 0    │ online    │ 0%       │ 73.7mb   │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 2509760  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 2509773  │ 11s    │ 0    │ online    │ 0%       │ 73.7mb   │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/orderResponse/responsehandling.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 2509786  │ 11s    │ 0    │ online    │ 0%       │ 73.8mb   │ root     │ disabled │
+│ 4  │ modifyorder         │ default     │ N/A     │ fork    │ 2509811  │ 5s     │ 0    │ online    │ 0%       │ 73.5mb   │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 2509798  │ 11s    │ 0    │ online    │ 0%       │ 73.7mb   │ root     │ disabled │
+│ 5  │ responsehandling    │ default     │ N/A     │ fork    │ 2509824  │ 0s     │ 0    │ online    │ 0%       │ 6.7mb    │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 2509760  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 2509773  │ 17s    │ 0    │ online    │ 0%       │ 73.7mb   │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/orderResponse/missingresponse.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 2509786  │ 12s    │ 0    │ online    │ 0%       │ 73.8mb   │ root     │ disabled │
+│ 6  │ missingresponse     │ default     │ N/A     │ fork    │ 2509836  │ 0s     │ 0    │ online    │ 0%       │ 6.5mb    │ root     │ disabled │
+│ 4  │ modifyorder         │ default     │ N/A     │ fork    │ 2509811  │ 6s     │ 0    │ online    │ 0%       │ 73.5mb   │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 2509798  │ 12s    │ 0    │ online    │ 0%       │ 73.7mb   │ root     │ disabled │
+│ 5  │ responsehandling    │ default     │ N/A     │ fork    │ 2509824  │ 0s     │ 0    │ online    │ 0%       │ 73.7mb   │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 2509760  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 2509773  │ 18s    │ 0    │ online    │ 0%       │ 73.7mb   │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/HopperN/strategyLauncher.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 7  │ HopperN             │ default     │ N/A     │ fork    │ 2509849  │ 0s     │ 0    │ online    │ 0%       │ 8.0mb    │ root     │ disabled │
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 2509786  │ 18s    │ 0    │ online    │ 0%       │ 73.8mb   │ root     │ disabled │
+│ 6  │ missingresponse     │ default     │ N/A     │ fork    │ 2509836  │ 5s     │ 0    │ online    │ 0%       │ 73.5mb   │ root     │ disabled │
+│ 4  │ modifyorder         │ default     │ N/A     │ fork    │ 2509811  │ 12s    │ 0    │ online    │ 0%       │ 73.5mb   │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 2509798  │ 17s    │ 0    │ online    │ 0%       │ 73.7mb   │ root     │ disabled │
+│ 5  │ responsehandling    │ default     │ N/A     │ fork    │ 2509824  │ 6s     │ 0    │ online    │ 0%       │ 73.7mb   │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 2509760  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 2509773  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Wed Jul  5 15:35:01 IST 2023
+[PM2] Applying action deleteProcessId on app [all](ids: 0,1,2,3,4,5,6,7)
+[PM2] [HopperN](7) ✓
+[PM2] [ordersender](3) ✓
+[PM2] [modifyorder](4) ✓
+[PM2] [responsehandling](5) ✓
+[PM2] [missingresponse](6) ✓
+[PM2] [candle](2) ✓
+[PM2] [tickdata](1) ✓
+[PM2] [symboladder](0) ✓
+┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+└────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Thu Jul  6 09:03:01 IST 2023
+[PM2] Starting /root/work/datafeeder/symboladder.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 2525499  │ 0s     │ 0    │ online    │ 0%       │ 6.9mb    │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/datafeeder/tickdata.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 2525499  │ 20s    │ 0    │ online    │ 0%       │ 101.4mb  │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 2525516  │ 0s     │ 0    │ online    │ 0%       │ 7.0mb    │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/datafeeder/candle.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 2525539  │ 0s     │ 0    │ online    │ 0%       │ 6.5mb    │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 2525499  │ 26s    │ 0    │ online    │ 0%       │ 101.4mb  │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 2525516  │ 5s     │ 0    │ online    │ 0%       │ 101.3mb  │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/tradeExecutor/ordersender.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 2525539  │ 0s     │ 0    │ online    │ 0%       │ 73.7mb   │ root     │ disabled │
+│ 3  │ ordersender    │ default     │ N/A     │ fork    │ 2525553  │ 0s     │ 0    │ online    │ 0%       │ 7.0mb    │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 2525499  │ 27s    │ 0    │ online    │ 0%       │ 101.4mb  │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 2525516  │ 6s     │ 0    │ online    │ 0%       │ 101.3mb  │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/modifyorder/modifyorder.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 2525539  │ 6s     │ 0    │ online    │ 0%       │ 111.2mb  │ root     │ disabled │
+│ 4  │ modifyorder    │ default     │ N/A     │ fork    │ 2525592  │ 0s     │ 0    │ online    │ 0%       │ 6.4mb    │ root     │ disabled │
+│ 3  │ ordersender    │ default     │ N/A     │ fork    │ 2525553  │ 5s     │ 0    │ online    │ 0%       │ 109.0mb  │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 2525499  │ 33s    │ 0    │ online    │ 0%       │ 101.4mb  │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 2525516  │ 12s    │ 0    │ online    │ 0%       │ 101.3mb  │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/orderResponse/responsehandling.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 2525539  │ 12s    │ 0    │ online    │ 0%       │ 111.2mb  │ root     │ disabled │
+│ 4  │ modifyorder         │ default     │ N/A     │ fork    │ 2525592  │ 5s     │ 0    │ online    │ 0%       │ 109.1mb  │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 2525553  │ 11s    │ 0    │ online    │ 0%       │ 109.0mb  │ root     │ disabled │
+│ 5  │ responsehandling    │ default     │ N/A     │ fork    │ 2525623  │ 0s     │ 0    │ online    │ 0%       │ 8.6mb    │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 2525499  │ 38s    │ 0    │ online    │ 0%       │ 101.4mb  │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 2525516  │ 18s    │ 0    │ online    │ 0%       │ 101.3mb  │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/orderResponse/missingresponse.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 2525539  │ 13s    │ 0    │ online    │ 0%       │ 111.2mb  │ root     │ disabled │
+│ 6  │ missingresponse     │ default     │ N/A     │ fork    │ 2525637  │ 0s     │ 0    │ online    │ 0%       │ 7.0mb    │ root     │ disabled │
+│ 4  │ modifyorder         │ default     │ N/A     │ fork    │ 2525592  │ 6s     │ 0    │ online    │ 0%       │ 109.1mb  │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 2525553  │ 12s    │ 0    │ online    │ 0%       │ 109.0mb  │ root     │ disabled │
+│ 5  │ responsehandling    │ default     │ N/A     │ fork    │ 2525623  │ 0s     │ 0    │ online    │ 0%       │ 73.7mb   │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 2525499  │ 39s    │ 0    │ online    │ 0%       │ 101.4mb  │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 2525516  │ 18s    │ 0    │ online    │ 0%       │ 101.3mb  │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/HopperN/strategyLauncher.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 7  │ HopperN             │ default     │ N/A     │ fork    │ 2525677  │ 0s     │ 0    │ online    │ 0%       │ 7.0mb    │ root     │ disabled │
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 2525539  │ 18s    │ 0    │ online    │ 0%       │ 111.2mb  │ root     │ disabled │
+│ 6  │ missingresponse     │ default     │ N/A     │ fork    │ 2525637  │ 5s     │ 0    │ online    │ 0%       │ 109.3mb  │ root     │ disabled │
+│ 4  │ modifyorder         │ default     │ N/A     │ fork    │ 2525592  │ 12s    │ 0    │ online    │ 0%       │ 109.1mb  │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 2525553  │ 18s    │ 0    │ online    │ 0%       │ 109.0mb  │ root     │ disabled │
+│ 5  │ responsehandling    │ default     │ N/A     │ fork    │ 2525623  │ 6s     │ 0    │ online    │ 0%       │ 84.7mb   │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 2525499  │ 45s    │ 0    │ online    │ 0%       │ 101.4mb  │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 2525516  │ 24s    │ 0    │ online    │ 0%       │ 101.3mb  │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Thu Jul  6 15:35:01 IST 2023
+[PM2] Applying action deleteProcessId on app [all](ids: 0,1,2,3,4,5,6,7)
+[PM2] [symboladder](0) ✓
+[PM2] [HopperN](7) ✓
+[PM2] [tickdata](1) ✓
+[PM2] [responsehandling](5) ✓
+[PM2] [ordersender](3) ✓
+[PM2] [modifyorder](4) ✓
+[PM2] [missingresponse](6) ✓
+[PM2] [candle](2) ✓
+┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+└────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Fri Jul  7 09:03:01 IST 2023
+[PM2] Starting /root/work/datafeeder/symboladder.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 3517664  │ 0s     │ 0    │ online    │ 0%       │ 6.4mb    │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/datafeeder/tickdata.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 3517664  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 3517681  │ 0s     │ 0    │ online    │ 0%       │ 6.5mb    │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/datafeeder/candle.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 3517694  │ 0s     │ 0    │ online    │ 0%       │ 6.9mb    │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 3517664  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 3517681  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/tradeExecutor/ordersender.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 3517694  │ 0s     │ 0    │ online    │ 0%       │ 73.5mb   │ root     │ disabled │
+│ 3  │ ordersender    │ default     │ N/A     │ fork    │ 3517706  │ 0s     │ 0    │ online    │ 0%       │ 6.9mb    │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 3517664  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 3517681  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/modifyorder/modifyorder.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle         │ default     │ N/A     │ fork    │ 3517694  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 4  │ modifyorder    │ default     │ N/A     │ fork    │ 3517719  │ 0s     │ 0    │ online    │ 0%       │ 5.9mb    │ root     │ disabled │
+│ 3  │ ordersender    │ default     │ N/A     │ fork    │ 3517706  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 0  │ symboladder    │ default     │ N/A     │ fork    │ 3517664  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata       │ default     │ N/A     │ fork    │ 3517681  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/orderResponse/responsehandling.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 3517694  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 4  │ modifyorder         │ default     │ N/A     │ fork    │ 3517719  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 3517706  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 5  │ responsehandling    │ default     │ N/A     │ fork    │ 3517732  │ 0s     │ 0    │ online    │ 0%       │ 7.3mb    │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 3517664  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 3517681  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/orderResponse/missingresponse.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 3517694  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 6  │ missingresponse     │ default     │ N/A     │ fork    │ 3517744  │ 0s     │ 0    │ online    │ 0%       │ 6.4mb    │ root     │ disabled │
+│ 4  │ modifyorder         │ default     │ N/A     │ fork    │ 3517719  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 3517706  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 5  │ responsehandling    │ default     │ N/A     │ fork    │ 3517732  │ 0s     │ 0    │ online    │ 0%       │ 73.6mb   │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 3517664  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 3517681  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+[PM2] Starting /root/work/HopperN/strategyLauncher.py in fork_mode (1 instance)
+[PM2] Done.
+┌────┬─────────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name                │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼─────────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 7  │ HopperN             │ default     │ N/A     │ fork    │ 3517764  │ 0s     │ 0    │ online    │ 0%       │ 6.8mb    │ root     │ disabled │
+│ 2  │ candle              │ default     │ N/A     │ fork    │ 3517694  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 6  │ missingresponse     │ default     │ N/A     │ fork    │ 3517744  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 4  │ modifyorder         │ default     │ N/A     │ fork    │ 3517719  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 3  │ ordersender         │ default     │ N/A     │ fork    │ 3517706  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 5  │ responsehandling    │ default     │ N/A     │ fork    │ 3517732  │ 6s     │ 0    │ online    │ 0%       │ 84.4mb   │ root     │ disabled │
+│ 0  │ symboladder         │ default     │ N/A     │ fork    │ 3517664  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+│ 1  │ tickdata            │ default     │ N/A     │ fork    │ 3517681  │ 0      │ 0    │ waiting … │ 0%       │ 0b       │ root     │ disabled │
+└────┴─────────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Fri Jul  7 15:35:01 IST 2023
+[PM2] Applying action deleteProcessId on app [all](ids: 0,1,2,3,4,5,6,7)
+[PM2] [symboladder](0) ✓
+[PM2] [HopperN](7) ✓
+[PM2] [tickdata](1) ✓
+[PM2] [ordersender](3) ✓
+[PM2] [modifyorder](4) ✓
+[PM2] [responsehandling](5) ✓
+[PM2] [candle](2) ✓
+[PM2] [missingresponse](6) ✓
+┌────┬───────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name      │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+└────┴───────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘

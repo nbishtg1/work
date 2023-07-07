@@ -1,0 +1,369 @@
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 63
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 63
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-18 10:55:40.315675 modifying order_id 202306192700000821 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 10:55:40.667964 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000821'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 10:55:40.668173 order_id 202306192700000821 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 10:55:46.679885 modifying order_id 202306192700000821 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 10:55:46.984924 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000821'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 10:55:46.985140 order_id 202306192700000821 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 10:55:52.988863 modifying order_id 202306192700000821 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 10:55:53.277786 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000821'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 10:55:53.277997 order_id 202306192700000821 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 10:55:59.280296 modifying order_id 202306192700000821 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 10:55:59.573948 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000821'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 10:55:59.574148 order_id 202306192700000821 modified sucessfully
+[INFO]: 2023-06-18 10:55:59.575182 modified max times 4, removing order_id 202306192700000821 from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-06-18 10:57:46.288257 modifying order_id 202306192700000822 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 10:57:46.609059 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000822'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 10:57:46.609254 order_id 202306192700000822 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 10:57:46.621084 modifying order_id 202306192700000823 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 10:57:46.913386 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000823'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 10:57:46.913595 order_id 202306192700000823 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 10:57:46.989727 modifying order_id 202306192700000824 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 10:57:47.255269 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000824'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 10:57:47.255513 order_id 202306192700000824 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 10:57:52.611420 modifying order_id 202306192700000822 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 10:57:52.873997 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000822'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 10:57:52.874106 order_id 202306192700000822 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 10:57:52.915951 modifying order_id 202306192700000823 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 10:57:53.227606 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000823'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 10:57:53.227805 order_id 202306192700000823 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 10:57:53.258071 modifying order_id 202306192700000824 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 10:57:53.559865 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000824'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 10:57:53.560059 order_id 202306192700000824 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 10:57:58.876861 modifying order_id 202306192700000822 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 10:57:59.176260 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000822'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 10:57:59.176468 order_id 202306192700000822 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 10:57:59.229968 modifying order_id 202306192700000823 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 10:57:59.503573 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000823'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 10:57:59.503766 order_id 202306192700000823 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 10:57:59.562823 modifying order_id 202306192700000824 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 10:57:59.854401 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000824'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 10:57:59.854608 order_id 202306192700000824 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 10:58:05.179307 modifying order_id 202306192700000822 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 10:58:05.477143 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000822'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 10:58:05.477341 order_id 202306192700000822 modified sucessfully
+[INFO]: 2023-06-18 10:58:05.478417 modified max times 4, removing order_id 202306192700000822 from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-06-18 10:58:05.506304 modifying order_id 202306192700000823 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 10:58:05.819147 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000823'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 10:58:05.819342 order_id 202306192700000823 modified sucessfully
+[INFO]: 2023-06-18 10:58:05.820429 modified max times 4, removing order_id 202306192700000823 from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-06-18 10:58:05.856765 modifying order_id 202306192700000824 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 10:58:06.158269 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000824'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 10:58:06.158475 order_id 202306192700000824 modified sucessfully
+[INFO]: 2023-06-18 10:58:06.159580 modified max times 4, removing order_id 202306192700000824 from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-06-18 11:11:11.667890 modifying order_id 202306192700000828 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:11:11.973714 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000828'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:11:11.973898 order_id 202306192700000828 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 11:11:11.976632 modifying order_id 202306192700000829 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:11:12.237815 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000829'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:11:12.237932 order_id 202306192700000829 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 11:11:12.259440 modifying order_id 202306192700000830 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 117
+[ERROR]: 2023-06-18 11:11:12.536822 {'Success': None, 'Status': 500, 'Error': 'Available Futures and Options Limit is insufficient to cover the trade value:'}
+[INFO]: ..
+[INFO]: 2023-06-18 11:11:17.976336 modifying order_id 202306192700000828 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:11:18.221260 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000828'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:11:18.221470 order_id 202306192700000828 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 11:11:18.240334 modifying order_id 202306192700000829 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:11:18.525064 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000829'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:11:18.525263 order_id 202306192700000829 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 11:11:24.224096 modifying order_id 202306192700000828 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:11:24.548625 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000828'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:11:24.548843 order_id 202306192700000828 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 11:11:24.551199 modifying order_id 202306192700000829 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:11:24.890560 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000829'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:11:24.890755 order_id 202306192700000829 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 11:11:30.551330 modifying order_id 202306192700000828 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:11:30.845444 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000828'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:11:30.845637 order_id 202306192700000828 modified sucessfully
+[INFO]: 2023-06-18 11:11:30.846660 modified max times 4, removing order_id 202306192700000828 from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-06-18 11:11:30.892774 modifying order_id 202306192700000829 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:11:31.189176 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000829'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:11:31.189385 order_id 202306192700000829 modified sucessfully
+[INFO]: 2023-06-18 11:11:31.190430 modified max times 4, removing order_id 202306192700000829 from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-06-18 11:15:23.398555 modifying order_id 202306192700000832 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:15:23.710866 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000832'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:15:23.710962 order_id 202306192700000832 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 11:15:23.719979 modifying order_id 202306192700000833 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:15:23.997425 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000833'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:15:23.997603 order_id 202306192700000833 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 11:15:24.001730 modifying order_id 202306192700000834 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:15:24.281603 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000834'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:15:24.281818 order_id 202306192700000834 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 11:15:29.713504 modifying order_id 202306192700000832 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:15:30.016991 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000832'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:15:30.017189 order_id 202306192700000832 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 11:15:30.019751 modifying order_id 202306192700000833 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:15:30.279762 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000833'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:15:30.279951 order_id 202306192700000833 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 11:15:30.284492 modifying order_id 202306192700000834 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:15:30.582166 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000834'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:15:30.582383 order_id 202306192700000834 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 11:15:36.019329 modifying order_id 202306192700000832 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:15:36.258640 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000832'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:15:36.258856 order_id 202306192700000832 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 11:15:36.282301 modifying order_id 202306192700000833 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:15:36.573495 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000833'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:15:36.573594 order_id 202306192700000833 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 11:15:36.584400 modifying order_id 202306192700000834 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:15:36.868337 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000834'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:15:36.868534 order_id 202306192700000834 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 11:15:42.261331 modifying order_id 202306192700000832 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:15:42.585809 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000832'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:15:42.586017 order_id 202306192700000832 modified sucessfully
+[INFO]: 2023-06-18 11:15:42.587100 modified max times 4, removing order_id 202306192700000832 from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-06-18 11:15:42.588746 modifying order_id 202306192700000833 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:15:42.854117 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000833'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:15:42.854346 order_id 202306192700000833 modified sucessfully
+[INFO]: 2023-06-18 11:15:42.855641 modified max times 4, removing order_id 202306192700000833 from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-06-18 11:15:42.871085 modifying order_id 202306192700000834 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:15:43.131741 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000834'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:15:43.131941 order_id 202306192700000834 modified sucessfully
+[INFO]: 2023-06-18 11:15:43.133049 modified max times 4, removing order_id 202306192700000834 from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-06-18 11:21:18.239155 modifying order_id 202306192700000836 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:21:18.515231 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000836'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:21:18.515465 order_id 202306192700000836 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 11:21:18.519291 modifying order_id 202306192700000837 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:21:18.798844 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000837'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:21:18.799050 order_id 202306192700000837 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 11:21:18.807482 modifying order_id 202306192700000838 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:21:19.090100 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000838'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:21:19.090321 order_id 202306192700000838 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 11:21:24.517878 modifying order_id 202306192700000836 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:21:24.814348 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000836'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:21:24.814569 order_id 202306192700000836 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 11:21:24.816949 modifying order_id 202306192700000837 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:21:25.098710 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000837'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:21:25.098912 order_id 202306192700000837 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 11:21:25.101304 modifying order_id 202306192700000838 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 11:21:25.381599 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000838'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:21:25.381699 order_id 202306192700000838 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 11:21:30.816644 modifying order_id 202306192700000836 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-18 22:11:17.177262 modifying order_id 202306192700000837 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 121
+[ERROR]: 2023-06-18 22:11:17.523999 {'Success': None, 'Status': 500, 'Error': 'Modification/Cancellation of Order is not possible:Please verify the order status'}
+[INFO]: ..
+[INFO]: 2023-06-18 22:11:17.725998 modifying order_id 202306192700000838 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 121
+[ERROR]: 2023-06-18 22:11:17.942648 {'Success': None, 'Status': 500, 'Error': 'Modification/Cancellation of Order is not possible:Please verify the order status'}
+[INFO]: ..
+[INFO]: 2023-06-18 22:12:39.974688 modifying order_id 202306192700001113 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 22:12:40.239365 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700001113'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 22:12:40.239591 order_id 202306192700001113 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 22:12:40.447029 modifying order_id 202306192700001114 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 22:12:40.713055 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700001114'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 22:12:40.713254 order_id 202306192700001114 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 22:12:40.916404 modifying order_id 202306192700001115 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 22:12:41.169584 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700001115'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 22:12:41.169776 order_id 202306192700001115 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 22:12:46.794197 modifying order_id 202306192700001113 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 22:12:47.088246 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700001113'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 22:12:47.088490 order_id 202306192700001113 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 22:12:47.293760 modifying order_id 202306192700001114 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 22:12:47.583627 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700001114'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 22:12:47.583845 order_id 202306192700001114 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 22:12:47.787184 modifying order_id 202306192700001115 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 22:12:48.105262 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700001115'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 22:12:48.105473 order_id 202306192700001115 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 22:12:53.127119 modifying order_id 202306192700001113 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 22:12:53.387530 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700001113'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 22:12:53.387744 order_id 202306192700001113 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 22:12:53.590930 modifying order_id 202306192700001114 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 22:12:53.900094 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700001114'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 22:12:53.900297 order_id 202306192700001114 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 22:12:54.705780 modifying order_id 202306192700001115 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 22:12:54.970063 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700001115'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 22:12:54.970268 order_id 202306192700001115 modified sucessfully
+[INFO]: ..
+[INFO]: 2023-06-18 22:12:59.990672 modifying order_id 202306192700001113 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 22:13:00.333857 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700001113'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 22:13:00.334056 order_id 202306192700001113 modified sucessfully
+[INFO]: 2023-06-18 22:13:00.335164 modified max times 4, removing order_id 202306192700001113 from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-06-18 22:13:00.537113 modifying order_id 202306192700001114 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 22:13:00.806868 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700001114'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 22:13:00.807065 order_id 202306192700001114 modified sucessfully
+[INFO]: 2023-06-18 22:13:00.808156 modified max times 4, removing order_id 202306192700001114 from modifyOrder queue
+[INFO]: ..
+[INFO]: 2023-06-18 22:13:01.010119 modifying order_id 202306192700001115 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-18 22:13:01.271677 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700001115'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 22:13:01.271884 order_id 202306192700001115 modified sucessfully
+[INFO]: 2023-06-18 22:13:01.272973 modified max times 4, removing order_id 202306192700001115 from modifyOrder queue
+[INFO]: ..
