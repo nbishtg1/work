@@ -1,0 +1,28 @@
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2275117
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 98
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2275117
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 98
+[INFO]: {'Success': None, 'Status': 500, 'Error': 'Problem in Modifying Order,Please Contact Customer Support'}
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2275117
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 98
+[INFO]: {'Success': None, 'Status': 500, 'Error': 'Problem in Modifying Order,Please Contact Customer Support'}
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2275117
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 98
+[INFO]: {'Success': None, 'Status': 500, 'Error': 'Problem in Modifying Order,Please Contact Customer Support'}
+[INFO]: 0.2844524383544922

@@ -1,0 +1,1136 @@
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-17 11:08:23.376009: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 11:08:23.376674 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 15, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 11:08:23.376763 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 15 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 11:08:23.682940: initial order response received from broker ,delay by 0.31 seconds
+[INFO]: 2023-06-17 11:08:23.683145 {'Success': {'order_id': '202306192700000463', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:08:23.791725 order Placed sucessfully, inserted order in mongoDB
+[INFO]: 2023-06-17 11:08:24.495125 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19236', 'requestType': '5', 'messageSequence': '2023061900002150', 'messageDate': '17-06-2023', 'messageTime': '11:08:24', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '1500', 'orderStatus': 'Requested', 'orderReference': '202306192700000463', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:08:29.798142 modifying order_id 202306192700000463 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:08:30.257650 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000463'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:08:30.257872 order_id 202306192700000463 modified sucessfully
+[INFO]: 2023-06-17 11:08:31.134797 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002153', 'messageDate': '17-06-2023', 'messageTime': '11:08:31', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000463', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:08:36.285129 modifying order_id 202306192700000463 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:08:36.592449 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000463'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:08:36.592650 order_id 202306192700000463 modified sucessfully
+[INFO]: 2023-06-17 11:08:38.074398 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002156', 'messageDate': '17-06-2023', 'messageTime': '11:08:38', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000463', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:08:42.609104 modifying order_id 202306192700000463 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:08:42.894182 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000463'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:08:42.894385 order_id 202306192700000463 modified sucessfully
+[INFO]: 2023-06-17 11:08:44.086784 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002161', 'messageDate': '17-06-2023', 'messageTime': '11:08:44', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000463', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:08:48.909779 modifying order_id 202306192700000463 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:08:49.234349 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000463'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:08:49.234815 order_id 202306192700000463 modified sucessfully
+[INFO]: 2023-06-17 11:08:49.737252 modified max times 4, removing order_id 202306192700000463 from modifyorder queue
+[INFO]: 2023-06-17 11:08:50.098777 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002166', 'messageDate': '17-06-2023', 'messageTime': '11:08:50', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000463', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-17 11:15:32.711259: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 11:15:32.711470 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 15, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 11:15:32.711549 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 15 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 11:15:32.970098: initial order response received from broker ,delay by 0.26 seconds
+[INFO]: 2023-06-17 11:15:32.970285 {'Success': {'order_id': '202306192700000464', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:15:32.972172 order Placed sucessfully, inserted order in mongoDB
+[INFO]: 2023-06-17 11:15:33.464556 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19236', 'requestType': '5', 'messageSequence': '2023061900002253', 'messageDate': '17-06-2023', 'messageTime': '11:15:33', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '1500', 'orderStatus': 'Requested', 'orderReference': '202306192700000464', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-17 11:19:03.976727: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 11:19:03.976911 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 15, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 11:19:03.977002 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 15 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 118
+[INFO]: 2023-06-17 11:19:04.263662: initial order response received from broker ,delay by 0.29 seconds
+[ERROR]: 2023-06-17 11:19:04.263883 {'Success': None, 'Status': 500, 'Error': 'Available Futures and Options Limit is insufficient to cover the trade value: '}
+[INFO]: 2023-06-17 11:19:34.642012 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19236', 'requestType': '5', 'messageSequence': '2023061900002297', 'messageDate': '17-06-2023', 'messageTime': '11:19:34', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Cancelled', 'orderReference': '202306192700000463', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '50', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:19:35.667632 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19237', 'requestType': '5', 'messageSequence': '2023061900002293', 'messageDate': '17-06-2023', 'messageTime': '11:19:35', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '1500', 'orderStatus': 'Cancelled', 'orderReference': '202306192700000464', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '50', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:19:56.359015: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 11:19:56.359220 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 15, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 11:19:56.359300 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 15 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 11:19:56.606885: initial order response received from broker ,delay by 0.25 seconds
+[INFO]: 2023-06-17 11:19:56.607090 {'Success': {'order_id': '202306192700000468', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:19:56.609073 order Placed sucessfully, inserted order in mongoDB
+[INFO]: 2023-06-17 11:19:56.646694 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19236', 'requestType': '5', 'messageSequence': '2023061900002301', 'messageDate': '17-06-2023', 'messageTime': '11:19:56', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '1500', 'orderStatus': 'Requested', 'orderReference': '202306192700000468', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-17 11:20:27.618261 modifying order_id 202306192700000468 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:20:28.038609 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000468'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:20:28.038806 order_id 202306192700000468 modified sucessfully
+[INFO]: 2023-06-17 11:20:29.696399 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002304', 'messageDate': '17-06-2023', 'messageTime': '11:20:29', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000468', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:20:34.054288 modifying order_id 202306192700000468 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:20:34.383847 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000468'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:20:34.384027 order_id 202306192700000468 modified sucessfully
+[INFO]: 2023-06-17 11:20:34.875375: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 11:20:34.875601 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 15, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 11:20:34.875680 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 15 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 11:20:35.129868: initial order response received from broker ,delay by 0.25 seconds
+[INFO]: 2023-06-17 11:20:35.130093 {'Success': {'order_id': '202306192700000469', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:20:35.131170 order Placed sucessfully, inserted order in mongoDB
+[INFO]: 2023-06-17 11:20:35.712189 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002309', 'messageDate': '17-06-2023', 'messageTime': '11:20:35', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000468', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:20:36.707859 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19236', 'requestType': '5', 'messageSequence': '2023061900002311', 'messageDate': '17-06-2023', 'messageTime': '11:20:36', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '1500', 'orderStatus': 'Requested', 'orderReference': '202306192700000469', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:20:40.399211 modifying order_id 202306192700000468 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:20:40.700369 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000468'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:20:40.700567 order_id 202306192700000468 modified sucessfully
+[INFO]: 2023-06-17 11:20:41.203880 modifying order_id 202306192700000469 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:20:41.501464 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000469'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:20:41.501562 order_id 202306192700000469 modified sucessfully
+[INFO]: 2023-06-17 11:20:41.726830 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002314', 'messageDate': '17-06-2023', 'messageTime': '11:20:41', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000468', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:20:42.700087 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002317', 'messageDate': '17-06-2023', 'messageTime': '11:20:42', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000469', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:20:47.014948 modifying order_id 202306192700000468 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:20:47.328669 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000468'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:20:47.328874 order_id 202306192700000468 modified sucessfully
+[INFO]: 2023-06-17 11:20:47.832072 modifying order_id 202306192700000469 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:20:48.144084 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000469'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:20:48.144280 order_id 202306192700000469 modified sucessfully
+[INFO]: 2023-06-17 11:20:48.646521 modified max times 4, removing order_id 202306192700000468 from modifyOrder queue
+[INFO]: 2023-06-17 11:20:49.259636 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002320', 'messageDate': '17-06-2023', 'messageTime': '11:20:49', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000468', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:20:49.732665 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002323', 'messageDate': '17-06-2023', 'messageTime': '11:20:49', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000469', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:20:54.158932 modifying order_id 202306192700000469 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:20:54.450703 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000469'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:20:54.450917 order_id 202306192700000469 modified sucessfully
+[INFO]: 2023-06-17 11:20:54.725685 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002326', 'messageDate': '17-06-2023', 'messageTime': '11:20:54', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000469', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:21:00.465853 modifying order_id 202306192700000469 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:21:00.796900 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000469'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:21:00.797098 order_id 202306192700000469 modified sucessfully
+[INFO]: 2023-06-17 11:21:01.299339 modified max times 4, removing order_id 202306192700000469 from modifyOrder queue
+[INFO]: 2023-06-17 11:21:02.746856 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002331', 'messageDate': '17-06-2023', 'messageTime': '11:21:02', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000469', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:21:43.314798 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19236', 'requestType': '5', 'messageSequence': '2023061900002345', 'messageDate': '17-06-2023', 'messageTime': '11:21:43', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Cancelled', 'orderReference': '202306192700000469', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '50', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:21:43.785519 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19236', 'requestType': '5', 'messageSequence': '2023061900002349', 'messageDate': '17-06-2023', 'messageTime': '11:21:43', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Cancelled', 'orderReference': '202306192700000468', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '50', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-17 11:24:53.167920: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 11:24:53.168088 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 15, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 11:24:53.168163 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 15 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 11:24:53.468998: initial order response received from broker ,delay by 0.3 seconds
+[INFO]: 2023-06-17 11:24:53.469201 {'Success': {'order_id': '202306192700000470', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:24:53.471823 order Placed sucessfully, inserted order in mongoDB
+[INFO]: 2023-06-17 11:24:53.954563 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19236', 'requestType': '5', 'messageSequence': '2023061900002378', 'messageDate': '17-06-2023', 'messageTime': '11:24:53', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '1500', 'orderStatus': 'Requested', 'orderReference': '202306192700000470', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:24:59.189925 modifying order_id 202306192700000470 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:24:59.459570 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000470'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:24:59.459778 order_id 202306192700000470 modified sucessfully
+[INFO]: 2023-06-17 11:24:59.965211 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002383', 'messageDate': '17-06-2023', 'messageTime': '11:24:59', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000470', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:25:05.474611 modifying order_id 202306192700000470 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:25:05.777763 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000470'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:25:05.777959 order_id 202306192700000470 modified sucessfully
+[INFO]: 2023-06-17 11:25:05.981772 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002388', 'messageDate': '17-06-2023', 'messageTime': '11:25:05', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000470', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:25:11.792193 modifying order_id 202306192700000470 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:25:12.124123 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000470'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:25:12.124329 order_id 202306192700000470 modified sucessfully
+[INFO]: 2023-06-17 11:25:12.953306 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002391', 'messageDate': '17-06-2023', 'messageTime': '11:25:12', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000470', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:25:18.139723 modifying order_id 202306192700000470 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:25:18.432104 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000470'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:25:18.432317 order_id 202306192700000470 modified sucessfully
+[INFO]: 2023-06-17 11:25:18.934562 modified max times 4, removing order_id 202306192700000470 from modifyOrder queue
+[INFO]: 2023-06-17 11:25:19.975621 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002394', 'messageDate': '17-06-2023', 'messageTime': '11:25:19', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000470', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-17 11:29:32.659510: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 11:29:32.659762 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 15, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 11:29:32.659840 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 15 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 11:29:32.905441: initial order response received from broker ,delay by 0.25 seconds
+[INFO]: 2023-06-17 11:29:32.905639 {'Success': {'order_id': '202306192700000471', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:29:32.923017 order Placed sucessfully, inserted order in mongoDB
+[INFO]: 2023-06-17 11:29:34.193800 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19236', 'requestType': '5', 'messageSequence': '2023061900002413', 'messageDate': '17-06-2023', 'messageTime': '11:29:34', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '1500', 'orderStatus': 'Requested', 'orderReference': '202306192700000471', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:29:39.095503 modifying order_id 202306192700000471 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:29:39.413739 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000471'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:29:39.413920 order_id 202306192700000471 modified sucessfully
+[INFO]: 2023-06-17 11:29:40.207001 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002418', 'messageDate': '17-06-2023', 'messageTime': '11:29:40', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000471', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:29:45.429351 modifying order_id 202306192700000471 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:29:45.721468 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000471'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:29:45.721662 order_id 202306192700000471 modified sucessfully
+[INFO]: 2023-06-17 11:29:47.230017 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002421', 'messageDate': '17-06-2023', 'messageTime': '11:29:47', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000471', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:29:51.736918 modifying order_id 202306192700000471 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:29:52.034919 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000471'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:29:52.035149 order_id 202306192700000471 modified sucessfully
+[INFO]: 2023-06-17 11:29:53.248052 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002426', 'messageDate': '17-06-2023', 'messageTime': '11:29:53', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000471', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:29:58.050788 modifying order_id 202306192700000471 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:29:58.320086 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000471'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:29:58.320279 order_id 202306192700000471 modified sucessfully
+[INFO]: 2023-06-17 11:29:58.822542 modified max times 4, removing order_id 202306192700000471 from modifyOrder queue
+[INFO]: 2023-06-17 11:30:00.199799 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002429', 'messageDate': '17-06-2023', 'messageTime': '11:30:00', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000471', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-17 11:37:54.592605: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 11:37:54.592794 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 15, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 11:37:54.592882 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 15 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 11:37:54.894261: initial order response received from broker ,delay by 0.3 seconds
+[INFO]: 2023-06-17 11:37:54.894463 {'Success': {'order_id': '202306192700000477', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:37:54.896359 order Placed sucessfully, inserted order in mongoDB
+[INFO]: 2023-06-17 11:37:55.583031 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19236', 'requestType': '5', 'messageSequence': '2023061900002486', 'messageDate': '17-06-2023', 'messageTime': '11:37:55', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '1500', 'orderStatus': 'Requested', 'orderReference': '202306192700000477', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:38:00.616482 modifying order_id 202306192700000477 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:38:00.942612 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000477'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:38:00.942807 order_id 202306192700000477 modified sucessfully
+[INFO]: 2023-06-17 11:38:02.694884 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002489', 'messageDate': '17-06-2023', 'messageTime': '11:38:02', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000477', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:38:06.957836 modifying order_id 202306192700000477 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:38:07.257099 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000477'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:38:07.257299 order_id 202306192700000477 modified sucessfully
+[INFO]: 2023-06-17 11:38:08.708664 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002494', 'messageDate': '17-06-2023', 'messageTime': '11:38:08', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000477', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:38:13.272139 modifying order_id 202306192700000477 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:38:13.566065 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000477'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:38:13.566260 order_id 202306192700000477 modified sucessfully
+[INFO]: 2023-06-17 11:38:13.595896 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002497', 'messageDate': '17-06-2023', 'messageTime': '11:38:13', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000477', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:38:19.581246 modifying order_id 202306192700000477 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 11:38:19.910800 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000477'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:38:19.910991 order_id 202306192700000477 modified sucessfully
+[INFO]: 2023-06-17 11:38:20.083321 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002500', 'messageDate': '17-06-2023', 'messageTime': '11:38:20', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000477', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:38:20.413325 modified max times 4, removing order_id 202306192700000477 from modifyOrder queue
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-17 11:48:00.003503: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 11:48:00.003681 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 15, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 11:48:00.003762 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 15 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 11:48:00.264119: initial order response received from broker ,delay by 0.26 seconds
+[INFO]: 2023-06-17 11:48:00.264318 {'Success': {'order_id': '202306192700000478', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:48:00.266136 order Placed sucessfully, inserted order in mongoDB
+[INFO]: 2023-06-17 11:48:02.103694 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19236', 'requestType': '5', 'messageSequence': '2023061900002542', 'messageDate': '17-06-2023', 'messageTime': '11:48:02', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '1500', 'orderStatus': 'Requested', 'orderReference': '202306192700000478', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-17 11:50:11.822470: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 11:50:11.822642 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 15, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 11:50:11.822720 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 15 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 118
+[INFO]: 2023-06-17 11:50:12.159992: initial order response received from broker ,delay by 0.34 seconds
+[ERROR]: 2023-06-17 11:50:12.160206 {'Success': None, 'Status': 500, 'Error': 'Available Futures and Options Limit is insufficient to cover the trade value: '}
+[INFO]: 2023-06-17 11:50:28.229314 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19237', 'requestType': '5', 'messageSequence': '2023061900002556', 'messageDate': '17-06-2023', 'messageTime': '11:50:28', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '1500', 'orderStatus': 'Cancelled', 'orderReference': '202306192700000478', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '50', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:50:28.727004 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19236', 'requestType': '5', 'messageSequence': '2023061900002560', 'messageDate': '17-06-2023', 'messageTime': '11:50:28', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Cancelled', 'orderReference': '202306192700000477', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '50', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:50:29.280803 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19236', 'requestType': '5', 'messageSequence': '2023061900002563', 'messageDate': '17-06-2023', 'messageTime': '11:50:29', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Cancelled', 'orderReference': '202306192700000471', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '50', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:50:30.235846 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19236', 'requestType': '5', 'messageSequence': '2023061900002567', 'messageDate': '17-06-2023', 'messageTime': '11:50:30', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Cancelled', 'orderReference': '202306192700000470', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '50', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:50:55.640418: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 11:50:55.640573 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 5, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 11:50:55.640674 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 11:50:55.921579: initial order response received from broker ,delay by 0.28 seconds
+[INFO]: 2023-06-17 11:50:55.921810 {'Success': {'order_id': '202306192700000483', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:50:55.923783 order Placed sucessfully, inserted order in mongoDB
+[INFO]: 2023-06-17 11:50:56.261933 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002571', 'messageDate': '17-06-2023', 'messageTime': '11:50:56', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '500', 'orderStatus': 'Requested', 'orderReference': '202306192700000483', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:53:35.776437 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19236', 'requestType': '5', 'messageSequence': '2023061900002594', 'messageDate': '17-06-2023', 'messageTime': '11:53:35', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '500', 'orderStatus': 'Cancelled', 'orderReference': '202306192700000483', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '50', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 11:56:12.686525: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 11:56:12.686689 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 5, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 11:56:12.686792 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 11:56:13.061261: initial order response received from broker ,delay by 0.37 seconds
+[INFO]: 2023-06-17 11:56:13.061465 {'Success': {'order_id': '202306192700000486', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 11:56:13.078465 order Placed sucessfully, inserted order in mongoDB
+[INFO]: 2023-06-17 11:56:13.902083 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002609', 'messageDate': '17-06-2023', 'messageTime': '11:56:13', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '500', 'orderStatus': 'Requested', 'orderReference': '202306192700000486', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-17 12:01:22.671508: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 12:01:22.671741 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 5, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 12:01:22.671826 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 12:01:22.964485: initial order response received from broker ,delay by 0.29 seconds
+[INFO]: 2023-06-17 12:01:22.964695 {'Success': {'order_id': '202306192700000488', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:01:22.968256 order Placed sucessfully, inserted order in mongoDB
+[INFO]: 2023-06-17 12:01:23.807107 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002633', 'messageDate': '17-06-2023', 'messageTime': '12:01:23', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '500', 'orderStatus': 'Requested', 'orderReference': '202306192700000488', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-17 12:03:25.186762: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 12:03:25.186941 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 5, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 12:03:25.187028 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 12:03:25.543586: initial order response received from broker ,delay by 0.36 seconds
+[INFO]: 2023-06-17 12:03:25.543802 {'Success': {'order_id': '202306192700000489', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:03:25.544800 order Placed sucessfully, inserted order in mongoDB
+[INFO]: 2023-06-17 12:03:26.852443 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002647', 'messageDate': '17-06-2023', 'messageTime': '12:03:26', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '500', 'orderStatus': 'Requested', 'orderReference': '202306192700000489', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-17 12:04:42.596246 modifying order_id 202306192700000486 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:04:42.954538 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000486'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:04:42.954735 order_id 202306192700000486 modified sucessfully
+[INFO]: 2023-06-17 12:04:43.465614 modifying order_id 202306192700000488 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:04:43.750731 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000488'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:04:43.750924 order_id 202306192700000488 modified sucessfully
+[INFO]: 2023-06-17 12:04:44.254269 modifying order_id 202306192700000489 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:04:44.530566 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000489'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:04:44.530761 order_id 202306192700000489 modified sucessfully
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-17 12:04:49.543525 modifying order_id 202306192700000486 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:04:49.866294 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000486'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:04:49.866392 order_id 202306192700000486 modified sucessfully
+[INFO]: 2023-06-17 12:04:50.371948 modifying order_id 202306192700000488 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[INFO]: 2023-06-17 12:04:50.924862 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002661', 'messageDate': '17-06-2023', 'messageTime': '12:04:50', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000486', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:04:51.792763 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000488'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:04:51.792958 order_id 202306192700000488 modified sucessfully
+[INFO]: 2023-06-17 12:04:52.296354 modifying order_id 202306192700000489 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[INFO]: 2023-06-17 12:04:52.360504 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002664', 'messageDate': '17-06-2023', 'messageTime': '12:04:52', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000488', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:04:52.599928 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000489'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:04:52.600124 order_id 202306192700000489 modified sucessfully
+[INFO]: 2023-06-17 12:04:52.935996 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002667', 'messageDate': '17-06-2023', 'messageTime': '12:04:52', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000489', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 12:04:56.110211 modifying order_id 202306192700000486 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[INFO]: 2023-06-17 12:04:58.260617: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 12:04:58.260777 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 5, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 12:04:58.260856 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 12:04:59.577825: initial order response received from broker ,delay by 1.32 seconds
+[INFO]: 2023-06-17 12:04:59.578032 {'Success': {'order_id': '202306192700000491', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:04:59.579930 order Placed sucessfully, inserted order in mongoDB
+[INFO]: 2023-06-17 12:05:00.372948 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002669', 'messageDate': '17-06-2023', 'messageTime': '12:05:00', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '500', 'orderStatus': 'Requested', 'orderReference': '202306192700000491', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:05:03.615955 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000486'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:05:03.616152 order_id 202306192700000486 modified sucessfully
+[INFO]: 2023-06-17 12:05:04.119634 modifying order_id 202306192700000488 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:05:04.407007 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000488'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:05:04.407210 order_id 202306192700000488 modified sucessfully
+[INFO]: 2023-06-17 12:05:04.910621 modifying order_id 202306192700000489 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[INFO]: 2023-06-17 12:05:04.964716 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002672', 'messageDate': '17-06-2023', 'messageTime': '12:05:04', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000486', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 12:05:05.460923 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002675', 'messageDate': '17-06-2023', 'messageTime': '12:05:05', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000488', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:05:20.527218 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000489'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:05:20.527470 order_id 202306192700000489 modified sucessfully
+[INFO]: 2023-06-17 12:05:21.030829 modifying order_id 202306192700000491 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:05:21.299792 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000491'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:05:21.300005 order_id 202306192700000491 modified sucessfully
+[INFO]: 2023-06-17 12:05:21.487595 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002680', 'messageDate': '17-06-2023', 'messageTime': '12:05:21', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000489', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 12:05:21.803321 modifying order_id 202306192700000486 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[INFO]: 2023-06-17 12:05:22.025887 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002683', 'messageDate': '17-06-2023', 'messageTime': '12:05:22', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000491', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:05:22.120786 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000486'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:05:22.121478 order_id 202306192700000486 modified sucessfully
+[INFO]: 2023-06-17 12:05:22.624566 modifying order_id 202306192700000488 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:05:22.910987 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000488'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:05:22.911186 order_id 202306192700000488 modified sucessfully
+[INFO]: 2023-06-17 12:05:22.965075 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002686', 'messageDate': '17-06-2023', 'messageTime': '12:05:22', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000486', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 12:05:24.400209 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002689', 'messageDate': '17-06-2023', 'messageTime': '12:05:24', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000488', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 12:05:24.415690 modified max times 4, removing order_id 202306192700000486 from modifyOrder queue
+[INFO]: 2023-06-17 12:05:24.916751 modified max times 4, removing order_id 202306192700000488 from modifyOrder queue
+[INFO]: 2023-06-17 12:05:27.421782 modifying order_id 202306192700000489 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:05:27.707055 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000489'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:05:27.707249 order_id 202306192700000489 modified sucessfully
+[INFO]: 2023-06-17 12:05:28.210636 modifying order_id 202306192700000491 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[INFO]: 2023-06-17 12:05:29.007361 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002692', 'messageDate': '17-06-2023', 'messageTime': '12:05:28', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000489', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:05:29.506593 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000491'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:05:29.507292 order_id 202306192700000491 modified sucessfully
+[INFO]: 2023-06-17 12:05:29.508809 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002695', 'messageDate': '17-06-2023', 'messageTime': '12:05:29', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000491', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 12:05:30.009576 modified max times 4, removing order_id 202306192700000489 from modifyOrder queue
+[INFO]: 2023-06-17 12:05:35.522433 modifying order_id 202306192700000491 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:05:35.830528 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000491'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:05:35.830724 order_id 202306192700000491 modified sucessfully
+[INFO]: 2023-06-17 12:05:36.055561 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002698', 'messageDate': '17-06-2023', 'messageTime': '12:05:36', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000491', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 12:05:41.846464 modifying order_id 202306192700000491 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:05:42.133460 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000491'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:05:42.133654 order_id 202306192700000491 modified sucessfully
+[INFO]: 2023-06-17 12:05:42.635871 modified max times 4, removing order_id 202306192700000491 from modifyOrder queue
+[INFO]: 2023-06-17 12:05:42.996349 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002701', 'messageDate': '17-06-2023', 'messageTime': '12:05:42', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000491', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 12:07:09.075970 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19236', 'requestType': '5', 'messageSequence': '2023061900002711', 'messageDate': '17-06-2023', 'messageTime': '12:07:09', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Cancelled', 'orderReference': '202306192700000489', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '50', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 12:07:09.133013 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19236', 'requestType': '5', 'messageSequence': '2023061900002707', 'messageDate': '17-06-2023', 'messageTime': '12:07:09', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Cancelled', 'orderReference': '202306192700000491', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '50', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 12:07:09.586844 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19236', 'requestType': '5', 'messageSequence': '2023061900002715', 'messageDate': '17-06-2023', 'messageTime': '12:07:09', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Cancelled', 'orderReference': '202306192700000488', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '50', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 12:07:10.492525 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19236', 'requestType': '5', 'messageSequence': '2023061900002719', 'messageDate': '17-06-2023', 'messageTime': '12:07:10', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Cancelled', 'orderReference': '202306192700000486', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '50', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 12:08:14.521104: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 12:08:14.521281 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 5, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 12:08:14.521364 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 12:08:14.822227: initial order response received from broker ,delay by 0.3 seconds
+[INFO]: 2023-06-17 12:08:14.822432 {'Success': {'order_id': '202306192700000492', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:08:14.843646 order Placed sucessfully, inserted order in mongoDB
+[INFO]: 2023-06-17 12:08:16.553365 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002729', 'messageDate': '17-06-2023', 'messageTime': '12:08:16', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '500', 'orderStatus': 'Requested', 'orderReference': '202306192700000492', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 12:08:20.883689 modifying order_id 202306192700000492 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:08:21.169491 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000492'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:08:21.169691 order_id 202306192700000492 modified sucessfully
+[INFO]: 2023-06-17 12:08:23.161339 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002732', 'messageDate': '17-06-2023', 'messageTime': '12:08:23', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000492', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 12:08:27.184492 modifying order_id 202306192700000492 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:08:27.454055 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000492'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:08:27.454247 order_id 202306192700000492 modified sucessfully
+[INFO]: 2023-06-17 12:08:27.670174 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002735', 'messageDate': '17-06-2023', 'messageTime': '12:08:27', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000492', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 12:08:33.468902 modifying order_id 202306192700000492 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:08:33.779131 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000492'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:08:33.779342 order_id 202306192700000492 modified sucessfully
+[INFO]: 2023-06-17 12:08:34.214062 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002738', 'messageDate': '17-06-2023', 'messageTime': '12:08:34', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000492', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[INFO]: 2023-06-17 12:08:39.794766 modifying order_id 202306192700000492 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:08:40.129185 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000492'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:08:40.129384 order_id 202306192700000492 modified sucessfully
+[INFO]: 2023-06-17 12:08:40.631629 modified max times 4, removing order_id 202306192700000492 from modifyOrder queue
+[INFO]: 2023-06-17 12:08:41.164858 {'sourceNumber': '1', 'group': '*', 'userId': 'AD397875', 'key': '*', 'messageLength': '\x19235', 'requestType': '5', 'messageSequence': '2023061900002741', 'messageDate': '17-06-2023', 'messageTime': '12:08:41', 'messageCategory': 'Intraday Calls', 'messagePriority': 'N', 'messageType': '6', 'orderMatchAccount': '8507418020', 'orderExchangeCode': 'NFO', 'stockCode': 'NIFTY', 'productType': 'Options', 'optionType': 'Call', 'exerciseType': 'E', 'strikePrice': '1900000', 'expiryDate': '22-Jun-2023', 'orderValidDate': '19-Jun-2023', 'orderFlow': 'Buy', 'limitMarketFlag': 'Limit', 'orderType': 'Day', 'limitRate': '510', 'orderStatus': 'Requested', 'orderReference': '202306192700000492', 'orderTotalQuantity': '50', 'executedQuantity': '0', 'cancelledQuantity': '0', 'expiredQuantity': '0', 'stopLossTrigger': '0', 'specialFlag': 'N', 'pipeId': '27', 'channel': 'WEB', 'modificationOrCancelFlag': 'Y', 'tradeDate': '19-Jun-2023', 'acknowledgeNumber': '*', 'stopLossOrderReference': '*', 'totalAmountBlocked': '*', 'averageExecutedRate': '0.000000', 'cancelFlag': '0.000000', 'squareOffMarket': 'N', 'quickExitFlag': 'N', 'stopValidTillDateFlag': 'N', 'priceImprovementFlag': 'N', 'conversionImprovementFlag': 'N', 'trailUpdateCondition': 'N', 'systemPartnerCode': 'N'}
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-17 12:10:18.415594: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 12:10:18.415781 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 5, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 12:10:18.415868 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 12:10:18.710641: initial order response received from broker ,delay by 0.29 seconds
+[INFO]: 2023-06-17 12:10:18.710848 {'Success': {'order_id': '202306192700000493', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:10:18.712822 order Placed sucessfully, inserted order in mongoDB
+[INFO]: 2023-06-17 12:10:24.796449 modifying order_id 202306192700000493 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:10:25.062528 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000493'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:10:25.062738 order_id 202306192700000493 modified sucessfully
+[INFO]: 2023-06-17 12:10:31.078100 modifying order_id 202306192700000493 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:10:31.365089 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000493'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:10:31.365287 order_id 202306192700000493 modified sucessfully
+[INFO]: 2023-06-17 12:10:37.380018 modifying order_id 202306192700000493 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:10:37.676748 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000493'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:10:37.676943 order_id 202306192700000493 modified sucessfully
+[INFO]: 2023-06-17 12:10:43.692739 modifying order_id 202306192700000493 with limitPrice @5.1
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "PUT /breezeapi/api/v1/order HTTP/1.1" 200 115
+[INFO]: 2023-06-17 12:10:43.992051 {'Success': {'message': 'Successfully Modified the order', 'order_id': '202306192700000493'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:10:43.992252 order_id 202306192700000493 modified sucessfully
+[INFO]: 2023-06-17 12:10:44.494485 modified max times 4, removing order_id 202306192700000493 from modifyOrder queue
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-17 12:27:54.583975: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 12:27:54.584174 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 5, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 12:27:54.584260 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 12:27:54.914179: initial order response received from broker ,delay by 0.33 seconds
+[INFO]: 2023-06-17 12:27:54.915028 {'Success': {'order_id': '202306192700000496', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 12:27:54.916974 order Placed sucessfully, inserted order in mongoDB
+[INFO]: 2023-06-17 13:19:20.050577: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 13:19:20.052817 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 5, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 13:19:20.052916 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 13:19:20.374471: initial order response received from broker ,delay by 0.32 seconds
+[INFO]: 2023-06-17 13:19:20.375509 {'Success': {'order_id': '202306192700000524', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 13:19:20.447156 order Placed sucessfully, inserted order in mongoDB
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 56
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 56
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-17 16:03:51.686124: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:03:51.686323 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 5, 'limitPrice': 5, 'algoName': 'testalgo'}
+[ERROR]: RMS rejection due to lotSize error 5
+[INFO]: 2023-06-17 16:05:00.411002: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:05:00.411194 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 250, 'algoName': 'testalgo'}
+[ERROR]: RMS rejection due to limitPrice exceeds maxPricelimit of 150
+[INFO]: 2023-06-17 16:12:55.242293: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:12:55.242469 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 10, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:12:55.242561 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 10 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:12:55.522742: initial order response received from broker ,delay by 0.28 seconds
+[INFO]: 2023-06-17 16:12:55.522940 {'Success': {'order_id': '202306192700000605', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:12:55.525910 order Placed sucessfully, inserted order in mongoDB
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-17 16:24:21.586389: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:24:21.586575 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 4, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:24:21.586654 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 4 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:24:21.932754: initial order response received from broker ,delay by 0.35 seconds
+[INFO]: 2023-06-17 16:24:21.932863 {'Success': {'order_id': '202306192700000606', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:24:21.953583 order Placed sucessfully, inserted order in mongoDB
+[INFO]: 2023-06-17 16:24:21.954416: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:24:21.954586 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 5, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:24:21.954762 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:24:22.185041: initial order response received from broker ,delay by 0.23 seconds
+[INFO]: 2023-06-17 16:24:22.185252 {'Success': {'order_id': '202306192700000607', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:24:22.186237 order Placed sucessfully, inserted order in mongoDB
+[INFO]: 2023-06-17 16:24:22.186750: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:24:22.186910 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 6, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:24:22.187083 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 6 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:24:22.449293: initial order response received from broker ,delay by 0.26 seconds
+[INFO]: 2023-06-17 16:24:22.449509 {'Success': {'order_id': '202306192700000608', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:24:22.450504 order Placed sucessfully, inserted order in mongoDB
+[INFO]: 2023-06-17 16:24:22.451070: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:24:22.451233 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 7, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:24:22.451440 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 7 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:24:22.679676: initial order response received from broker ,delay by 0.23 seconds
+[INFO]: 2023-06-17 16:24:22.679876 {'Success': {'order_id': '202306192700000609', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:24:22.680803 order Placed sucessfully, inserted order in mongoDB
+[INFO]: 2023-06-17 16:24:22.681293: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:24:22.681458 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 8, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:24:22.681619 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 8 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:24:22.926355: initial order response received from broker ,delay by 0.24 seconds
+[INFO]: 2023-06-17 16:24:22.926550 {'Success': {'order_id': '202306192700000610', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:24:22.927497 order Placed sucessfully, inserted order in mongoDB
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-17 16:28:15.019622: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:28:15.019803 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 4, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:28:15.019880 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 4 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:28:15.245893: initial order response received from broker ,delay by 0.23 seconds
+[INFO]: 2023-06-17 16:28:15.246101 {'Success': {'order_id': '202306192700000611', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:28:15.247971 order Placed sucessfully, inserted order in mongoDB
+[CRITICAL]: 2023-06-17 16:28:15.248152 {'Success': {'order_id': '202306192700000611', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[CRITICAL]: info() missing 1 required positional argument: 'msg'
+[INFO]: 2023-06-17 16:28:15.248527: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:28:15.248689 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 5, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:28:15.248855 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:28:15.479364: initial order response received from broker ,delay by 0.23 seconds
+[INFO]: 2023-06-17 16:28:15.479591 {'Success': {'order_id': '202306192700000612', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:28:15.480536 order Placed sucessfully, inserted order in mongoDB
+[CRITICAL]: 2023-06-17 16:28:15.480724 {'Success': {'order_id': '202306192700000612', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[CRITICAL]: info() missing 1 required positional argument: 'msg'
+[INFO]: 2023-06-17 16:28:15.481121: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:28:15.481270 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 6, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:28:15.481424 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 6 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:28:15.714480: initial order response received from broker ,delay by 0.23 seconds
+[INFO]: 2023-06-17 16:28:15.714676 {'Success': {'order_id': '202306192700000613', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:28:15.715650 order Placed sucessfully, inserted order in mongoDB
+[CRITICAL]: 2023-06-17 16:28:15.715828 {'Success': {'order_id': '202306192700000613', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[CRITICAL]: info() missing 1 required positional argument: 'msg'
+[INFO]: 2023-06-17 16:28:15.716195: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:28:15.716345 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 7, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:28:15.716498 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 7 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:28:15.972609: initial order response received from broker ,delay by 0.26 seconds
+[INFO]: 2023-06-17 16:28:15.972713 {'Success': {'order_id': '202306192700000614', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:28:15.973712 order Placed sucessfully, inserted order in mongoDB
+[CRITICAL]: 2023-06-17 16:28:15.973894 {'Success': {'order_id': '202306192700000614', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[CRITICAL]: info() missing 1 required positional argument: 'msg'
+[INFO]: 2023-06-17 16:28:15.974308: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:28:15.974463 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 8, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:28:15.974620 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 8 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:28:16.222246: initial order response received from broker ,delay by 0.25 seconds
+[INFO]: 2023-06-17 16:28:16.222443 {'Success': {'order_id': '202306192700000615', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:28:16.223369 order Placed sucessfully, inserted order in mongoDB
+[CRITICAL]: 2023-06-17 16:28:16.223626 {'Success': {'order_id': '202306192700000615', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[CRITICAL]: info() missing 1 required positional argument: 'msg'
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-17 16:30:37.928697: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:30:37.928899 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 4, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:30:37.928975 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 4 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:30:38.175740: initial order response received from broker ,delay by 0.25 seconds
+[INFO]: 2023-06-17 16:30:38.175945 {'Success': {'order_id': '202306192700000616', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:30:38.177820 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:30:38.178666: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:30:38.178836 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 5, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:30:38.178998 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:30:38.439421: initial order response received from broker ,delay by 0.26 seconds
+[INFO]: 2023-06-17 16:30:38.439642 {'Success': {'order_id': '202306192700000617', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:30:38.440612 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:30:38.441266: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:30:38.441432 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 6, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:30:38.441594 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 6 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:30:38.725476: initial order response received from broker ,delay by 0.28 seconds
+[INFO]: 2023-06-17 16:30:38.725676 {'Success': {'order_id': '202306192700000618', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:30:38.726620 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:30:38.727290: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:30:38.727594 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 7, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:30:38.727764 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 7 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:30:38.998112: initial order response received from broker ,delay by 0.27 seconds
+[INFO]: 2023-06-17 16:30:38.998318 {'Success': {'order_id': '202306192700000619', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:30:38.999272 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:30:39.002907: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:30:39.003100 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 8, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:30:39.003268 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 8 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:30:39.289276: initial order response received from broker ,delay by 0.29 seconds
+[INFO]: 2023-06-17 16:30:39.295173 {'Success': {'order_id': '202306192700000620', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:30:39.297417 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:39:39.193795: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:39:39.194018 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 4, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:39:39.194135 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 4 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:39:39.439140: initial order response received from broker ,delay by 0.25 seconds
+[INFO]: 2023-06-17 16:39:39.439355 {'Success': {'order_id': '202306192700000624', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:39:39.440391 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:39:39.441061: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:39:39.441227 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 5, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:39:39.441389 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 118
+[INFO]: 2023-06-17 16:39:39.676497: initial order response received from broker ,delay by 0.24 seconds
+[ERROR]: 2023-06-17 16:39:39.676689 {'Success': None, 'Status': 500, 'Error': 'Available Futures and Options Limit is insufficient to cover the trade value: '}
+[INFO]: ..
+[INFO]: 2023-06-17 16:39:39.678456: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:39:39.678626 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 6, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:39:39.678789 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 6 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 118
+[INFO]: 2023-06-17 16:39:40.048764: initial order response received from broker ,delay by 0.37 seconds
+[ERROR]: 2023-06-17 16:39:40.048995 {'Success': None, 'Status': 500, 'Error': 'Available Futures and Options Limit is insufficient to cover the trade value: '}
+[INFO]: ..
+[INFO]: 2023-06-17 16:39:40.050656: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:39:40.050820 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 7, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:39:40.050986 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 7 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 118
+[INFO]: 2023-06-17 16:39:40.432151: initial order response received from broker ,delay by 0.38 seconds
+[ERROR]: 2023-06-17 16:39:40.432344 {'Success': None, 'Status': 500, 'Error': 'Available Futures and Options Limit is insufficient to cover the trade value: '}
+[INFO]: ..
+[INFO]: 2023-06-17 16:39:40.433979: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:39:40.434139 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 8, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:39:40.434297 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 8 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 118
+[INFO]: 2023-06-17 16:39:40.833716: initial order response received from broker ,delay by 0.4 seconds
+[ERROR]: 2023-06-17 16:39:40.833819 {'Success': None, 'Status': 500, 'Error': 'Available Futures and Options Limit is insufficient to cover the trade value: '}
+[INFO]: ..
+[INFO]: 2023-06-17 16:41:36.503595: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:41:36.503763 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 3, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:41:36.503846 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 3 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:41:36.772153: initial order response received from broker ,delay by 0.27 seconds
+[INFO]: 2023-06-17 16:41:36.772358 {'Success': {'order_id': '202306192700000629', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:41:36.773335 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:41:36.774359: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:41:36.774528 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 4, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:41:36.774693 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 4 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:41:37.019320: initial order response received from broker ,delay by 0.24 seconds
+[INFO]: 2023-06-17 16:41:37.019553 {'Success': {'order_id': '202306192700000630', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:41:37.020539 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:41:37.021786: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:41:37.022136 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 5, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:41:37.022443 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:41:37.388749: initial order response received from broker ,delay by 0.37 seconds
+[INFO]: 2023-06-17 16:41:37.388947 {'Success': {'order_id': '202306192700000631', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:41:37.389914 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:41:37.391045: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:41:37.391438 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 6, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:41:37.391741 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 6 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:41:37.789094: initial order response received from broker ,delay by 0.4 seconds
+[INFO]: 2023-06-17 16:41:37.789289 {'Success': {'order_id': '202306192700000632', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:41:37.790257 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:41:37.791297: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:41:37.791776 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 7, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:41:37.792141 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 7 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:41:38.172936: initial order response received from broker ,delay by 0.38 seconds
+[INFO]: 2023-06-17 16:41:38.173142 {'Success': {'order_id': '202306192700000633', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:41:38.174337 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:44:21.910296: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:44:21.910474 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 3, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:44:21.910568 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 3 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:44:22.160765: initial order response received from broker ,delay by 0.25 seconds
+[INFO]: 2023-06-17 16:44:22.160964 {'Success': {'order_id': '202306192700000634', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:44:22.161938 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:44:22.162593: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:44:22.162760 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 4, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:44:22.162923 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 4 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 118
+[INFO]: 2023-06-17 16:44:22.513202: initial order response received from broker ,delay by 0.35 seconds
+[ERROR]: 2023-06-17 16:44:22.513308 {'Success': None, 'Status': 500, 'Error': 'Available Futures and Options Limit is insufficient to cover the trade value: '}
+[INFO]: ..
+[INFO]: 2023-06-17 16:44:22.514962: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:44:22.515286 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 5, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:44:22.515497 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 118
+[INFO]: 2023-06-17 16:44:22.872820: initial order response received from broker ,delay by 0.36 seconds
+[ERROR]: 2023-06-17 16:44:22.872921 {'Success': None, 'Status': 500, 'Error': 'Available Futures and Options Limit is insufficient to cover the trade value: '}
+[INFO]: ..
+[INFO]: 2023-06-17 16:44:22.874644: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:44:22.874803 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 6, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:44:22.874975 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 6 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 118
+[INFO]: 2023-06-17 16:44:23.273341: initial order response received from broker ,delay by 0.4 seconds
+[ERROR]: 2023-06-17 16:44:23.273443 {'Success': None, 'Status': 500, 'Error': 'Available Futures and Options Limit is insufficient to cover the trade value: '}
+[INFO]: ..
+[INFO]: 2023-06-17 16:44:23.275142: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:44:23.275303 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 7, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:44:23.275505 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 7 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 118
+[INFO]: 2023-06-17 16:44:23.649522: initial order response received from broker ,delay by 0.37 seconds
+[ERROR]: 2023-06-17 16:44:23.649622 {'Success': None, 'Status': 500, 'Error': 'Available Futures and Options Limit is insufficient to cover the trade value: '}
+[INFO]: ..
+[INFO]: 2023-06-17 16:45:26.445218: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:45:26.445397 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:45:26.445491 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:45:26.685122: initial order response received from broker ,delay by 0.24 seconds
+[INFO]: 2023-06-17 16:45:26.685323 {'Success': {'order_id': '202306192700000639', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:45:26.686333 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:45:26.686964: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:45:26.687128 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:45:26.687290 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:45:26.994638: initial order response received from broker ,delay by 0.31 seconds
+[INFO]: 2023-06-17 16:45:26.994740 {'Success': {'order_id': '202306192700000640', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:45:26.995716 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:45:26.996591: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:45:26.996884 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:45:26.997236 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:45:27.349169: initial order response received from broker ,delay by 0.35 seconds
+[INFO]: 2023-06-17 16:45:27.349270 {'Success': {'order_id': '202306192700000641', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:45:27.350474 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:45:27.351617: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:45:27.351911 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:45:27.352367 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:45:27.718277: initial order response received from broker ,delay by 0.37 seconds
+[INFO]: 2023-06-17 16:45:27.718375 {'Success': {'order_id': '202306192700000642', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:45:27.719347 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:45:27.720201: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:45:27.720645 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:45:27.720995 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:45:28.089622: initial order response received from broker ,delay by 0.37 seconds
+[INFO]: 2023-06-17 16:45:28.089723 {'Success': {'order_id': '202306192700000643', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:45:28.090682 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:46:44.400987: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:46:44.401161 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:46:44.401253 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:46:44.641043: initial order response received from broker ,delay by 0.24 seconds
+[INFO]: 2023-06-17 16:46:44.641239 {'Success': {'order_id': '202306192700000644', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:46:44.642253 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:46:44.642941: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:46:44.643111 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:46:44.643270 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:46:44.891813: initial order response received from broker ,delay by 0.25 seconds
+[INFO]: 2023-06-17 16:46:44.892021 {'Success': {'order_id': '202306192700000645', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:46:44.892970 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:46:44.893596: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:46:44.893760 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:46:44.893919 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:46:45.339293: initial order response received from broker ,delay by 0.45 seconds
+[INFO]: 2023-06-17 16:46:45.339396 {'Success': {'order_id': '202306192700000646', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:46:45.340537 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:47:20.792520: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:47:20.792689 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:47:20.792768 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:47:21.040163: initial order response received from broker ,delay by 0.25 seconds
+[INFO]: 2023-06-17 16:47:21.040366 {'Success': {'order_id': '202306192700000647', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:47:21.041334 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:47:21.042003: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:47:21.042194 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:47:21.042367 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:47:21.284692: initial order response received from broker ,delay by 0.24 seconds
+[INFO]: 2023-06-17 16:47:21.284906 {'Success': {'order_id': '202306192700000648', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:47:21.285887 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:47:21.286597: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:47:21.286789 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:47:21.286952 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:47:21.680141: initial order response received from broker ,delay by 0.39 seconds
+[INFO]: 2023-06-17 16:47:21.680338 {'Success': {'order_id': '202306192700000649', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:47:21.681276 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:53:30.612906: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:53:30.613083 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:53:30.613167 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:53:30.859496: initial order response received from broker ,delay by 0.25 seconds
+[INFO]: 2023-06-17 16:53:30.859709 {'Success': {'order_id': '202306192700000650', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:53:30.860727 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:55:45.451050: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:55:45.451240 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:55:45.451321 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:55:45.721857: initial order response received from broker ,delay by 0.27 seconds
+[INFO]: 2023-06-17 16:55:45.722062 {'Success': {'order_id': '202306192700000651', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:55:45.723045 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:55:45.723709: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:55:45.723878 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:55:45.724052 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:55:45.970671: initial order response received from broker ,delay by 0.25 seconds
+[INFO]: 2023-06-17 16:55:45.970877 {'Success': {'order_id': '202306192700000652', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:55:45.974130 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 16:55:45.975565: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 16:55:45.975926 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 16:55:45.976288 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 16:55:46.379804: initial order response received from broker ,delay by 0.4 seconds
+[INFO]: 2023-06-17 16:55:46.380012 {'Success': {'order_id': '202306192700000653', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 16:55:46.380991 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 17:24:18.281993: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 17:24:18.282170 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 17:24:18.282253 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 17:24:18.603094: initial order response received from broker ,delay by 0.32 seconds
+[INFO]: 2023-06-17 17:24:18.603296 {'Success': {'order_id': '202306192700000655', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 17:24:18.604343 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 17:24:18.605031: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 17:24:18.605214 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 17:24:18.605404 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 17:24:18.858233: initial order response received from broker ,delay by 0.25 seconds
+[INFO]: 2023-06-17 17:24:18.858429 {'Success': {'order_id': '202306192700000656', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 17:24:18.861504 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 17:24:18.862738: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 17:24:18.863194 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 17:24:18.863378 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 17:24:19.228638: initial order response received from broker ,delay by 0.37 seconds
+[INFO]: 2023-06-17 17:24:19.228745 {'Success': {'order_id': '202306192700000657', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 17:24:19.229764 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 17:30:18.858847: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 17:30:18.859014 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 17:30:18.859094 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 17:30:19.150273: initial order response received from broker ,delay by 0.29 seconds
+[INFO]: 2023-06-17 17:30:19.150472 {'Success': {'order_id': '202306192700000661', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 17:30:19.151511 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 17:30:19.152152: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 17:30:19.152347 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 17:30:19.152523 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 17:30:19.441137: initial order response received from broker ,delay by 0.29 seconds
+[INFO]: 2023-06-17 17:30:19.441333 {'Success': {'order_id': '202306192700000662', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 17:30:19.442282 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 17:30:19.442926: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 17:30:19.443103 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 17:30:19.443275 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 17:30:20.709807: initial order response received from broker ,delay by 1.27 seconds
+[INFO]: 2023-06-17 17:30:20.710010 {'Success': {'order_id': '202306192700000663', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 17:30:20.710997 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 17:31:59.856103: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 17:31:59.856276 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 17:31:59.856358 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 17:32:00.135339: initial order response received from broker ,delay by 0.28 seconds
+[INFO]: 2023-06-17 17:32:00.135611 {'Success': {'order_id': '202306192700000664', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 17:32:00.136605 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 17:32:00.137716: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 17:32:00.137887 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 17:32:00.138052 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 17:32:00.415915: initial order response received from broker ,delay by 0.28 seconds
+[INFO]: 2023-06-17 17:32:00.416129 {'Success': {'order_id': '202306192700000665', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 17:32:00.417079 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 17:32:00.417725: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 17:32:00.417893 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 17:32:00.418057 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 17:32:00.662889: initial order response received from broker ,delay by 0.24 seconds
+[INFO]: 2023-06-17 17:32:00.663096 {'Success': {'order_id': '202306192700000666', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 17:32:00.664210 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 17:33:25.391622: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 17:33:25.391784 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 17:33:25.391876 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 17:33:25.665036: initial order response received from broker ,delay by 0.27 seconds
+[INFO]: 2023-06-17 17:33:25.665222 {'Success': {'order_id': '202306192700000667', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 17:33:25.666341 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 17:33:25.667120: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 17:33:25.667286 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 17:33:25.667483 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 17:33:25.929620: initial order response received from broker ,delay by 0.26 seconds
+[INFO]: 2023-06-17 17:33:25.929827 {'Success': {'order_id': '202306192700000668', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 17:33:25.930791 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 17:33:25.931497: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 17:33:25.931666 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 17:33:25.931840 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 17:33:26.192547: initial order response received from broker ,delay by 0.26 seconds
+[INFO]: 2023-06-17 17:33:26.192763 {'Success': {'order_id': '202306192700000669', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 17:33:26.193762 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 17:33:26.194413: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 17:33:26.194578 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 17:33:26.194754 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 17:33:26.437571: initial order response received from broker ,delay by 0.24 seconds
+[INFO]: 2023-06-17 17:33:26.437778 {'Success': {'order_id': '202306192700000670', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 17:33:26.438711 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 17:33:26.439339: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 17:33:26.439531 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 17:33:26.439711 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 17:33:26.693893: initial order response received from broker ,delay by 0.25 seconds
+[INFO]: 2023-06-17 17:33:26.694097 {'Success': {'order_id': '202306192700000671', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 17:33:26.695059 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-17 17:33:26.695741: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-17 17:33:26.695915 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-17 17:33:26.696087 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-17 17:33:26.969276: initial order response received from broker ,delay by 0.27 seconds
+[INFO]: 2023-06-17 17:33:26.969482 {'Success': {'order_id': '202306192700000672', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-17 17:33:26.970431 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449

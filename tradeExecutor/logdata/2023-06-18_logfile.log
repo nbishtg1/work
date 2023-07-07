@@ -1,0 +1,160 @@
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 63
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 63
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-18 10:55:34.313318: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-18 10:55:34.313508 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-18 10:55:34.313588 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-18 10:55:34.636870: initial order response received from broker ,delay by 0.32 seconds
+[INFO]: 2023-06-18 10:55:34.637073 {'Success': {'order_id': '202306192700000821', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 10:55:34.698582 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-18 10:57:40.286848: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-18 10:57:40.287023 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-18 10:57:40.287101 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-18 10:57:40.617690: initial order response received from broker ,delay by 0.33 seconds
+[INFO]: 2023-06-18 10:57:40.617890 {'Success': {'order_id': '202306192700000822', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 10:57:40.618894 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-18 10:57:40.619502: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-18 10:57:40.619685 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-18 10:57:40.619872 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-18 10:57:40.985526: initial order response received from broker ,delay by 0.37 seconds
+[INFO]: 2023-06-18 10:57:40.985639 {'Success': {'order_id': '202306192700000823', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 10:57:40.986632 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-18 10:57:40.987554: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-18 10:57:40.987955 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-18 10:57:40.988317 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-18 10:57:41.374044: initial order response received from broker ,delay by 0.39 seconds
+[INFO]: 2023-06-18 10:57:41.374148 {'Success': {'order_id': '202306192700000824', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 10:57:41.375119 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-18 11:11:05.665509: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-18 11:11:05.666311 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-18 11:11:05.666402 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-18 11:11:05.965167: initial order response received from broker ,delay by 0.3 seconds
+[INFO]: 2023-06-18 11:11:05.965374 {'Success': {'order_id': '202306192700000828', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:11:05.966341 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-18 11:11:05.966961: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-18 11:11:05.967128 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-18 11:11:05.967291 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-18 11:11:06.256135: initial order response received from broker ,delay by 0.29 seconds
+[INFO]: 2023-06-18 11:11:06.256335 {'Success': {'order_id': '202306192700000829', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:11:06.257258 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-18 11:11:06.257892: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-18 11:11:06.258085 {'symbol': 'NIFTY22JUN2319000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-18 11:11:06.258257 order details sending to broker-> NIFTY 22-JUN-2023 19000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-18 11:11:06.528620: initial order response received from broker ,delay by 0.27 seconds
+[INFO]: 2023-06-18 11:11:06.529003 {'Success': {'order_id': '202306192700000830', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:11:06.529925 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-18 11:15:17.396932: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-18 11:15:17.397117 {'symbol': 'BANKNIFTY22JUN2344000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-18 11:15:17.397206 order details sending to broker-> CNXBAN 22-JUN-2023 44000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-18 11:15:17.716581: initial order response received from broker ,delay by 0.32 seconds
+[INFO]: 2023-06-18 11:15:17.716787 {'Success': {'order_id': '202306192700000832', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:15:17.717787 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-18 11:15:17.718447: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-18 11:15:17.718632 {'symbol': 'BANKNIFTY22JUN2344000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-18 11:15:17.718802 order details sending to broker-> CNXBAN 22-JUN-2023 44000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-18 11:15:17.985460: initial order response received from broker ,delay by 0.27 seconds
+[INFO]: 2023-06-18 11:15:17.985667 {'Success': {'order_id': '202306192700000833', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:15:17.986605 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-18 11:15:17.987264: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-18 11:15:17.987469 {'symbol': 'BANKNIFTY22JUN2344000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-18 11:15:17.987644 order details sending to broker-> CNXBAN 22-JUN-2023 44000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-18 11:15:18.315193: initial order response received from broker ,delay by 0.33 seconds
+[INFO]: 2023-06-18 11:15:18.315294 {'Success': {'order_id': '202306192700000834', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:15:18.317739 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-18 11:21:12.237284: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-18 11:21:12.237456 {'symbol': 'BANKNIFTY22JUN2344000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-18 11:21:12.237537 order details sending to broker-> CNXBAN 22-JUN-2023 44000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-18 11:21:12.515853: initial order response received from broker ,delay by 0.28 seconds
+[INFO]: 2023-06-18 11:21:12.516057 {'Success': {'order_id': '202306192700000836', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:21:12.517117 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-18 11:21:12.517781: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-18 11:21:12.517951 {'symbol': 'BANKNIFTY22JUN2344000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-18 11:21:12.518117 order details sending to broker-> CNXBAN 22-JUN-2023 44000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-18 11:21:12.803138: initial order response received from broker ,delay by 0.29 seconds
+[INFO]: 2023-06-18 11:21:12.803238 {'Success': {'order_id': '202306192700000837', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:21:12.804475 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-18 11:21:12.805392: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-18 11:21:12.805846 {'symbol': 'BANKNIFTY22JUN2344000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-18 11:21:12.806205 order details sending to broker-> CNXBAN 22-JUN-2023 44000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-18 11:21:13.165113: initial order response received from broker ,delay by 0.36 seconds
+[INFO]: 2023-06-18 11:21:13.165322 {'Success': {'order_id': '202306192700000838', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 11:21:13.166240 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2543449
+[INFO]: 2023-06-18 22:12:33.597737: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-18 22:12:33.598813 {'symbol': 'BANKNIFTY22JUN2344000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-18 22:12:33.598904 order details sending to broker-> CNXBAN 22-JUN-2023 44000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-18 22:12:33.855132: initial order response received from broker ,delay by 0.26 seconds
+[INFO]: 2023-06-18 22:12:33.855361 {'Success': {'order_id': '202306192700001113', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 22:12:33.890360 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-18 22:12:33.891898: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-18 22:12:33.892074 {'symbol': 'BANKNIFTY22JUN2344000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-18 22:12:33.892246 order details sending to broker-> CNXBAN 22-JUN-2023 44000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-18 22:12:34.130780: initial order response received from broker ,delay by 0.24 seconds
+[INFO]: 2023-06-18 22:12:34.130966 {'Success': {'order_id': '202306192700001114', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 22:12:34.131959 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-06-18 22:12:34.132602: order received from algo: testalgo, now placing order
+[INFO]: 2023-06-18 22:12:34.132773 {'symbol': 'BANKNIFTY22JUN2344000CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 2, 'algoName': 'testalgo'}
+[INFO]: 2023-06-18 22:12:34.132939 order details sending to broker-> CNXBAN 22-JUN-2023 44000 call , BUY , 2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-06-18 22:12:34.380560: initial order response received from broker ,delay by 0.25 seconds
+[INFO]: 2023-06-18 22:12:34.380774 {'Success': {'order_id': '202306192700001115', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-06-18 22:12:34.381822 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..

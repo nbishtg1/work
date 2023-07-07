@@ -1,0 +1,541 @@
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "GET /breezeapi/api/v1/customerdetails HTTP/1.1" 200 577
+[DEBUG]: Starting new HTTPS connection (1): traderweb.icicidirect.com:443
+[DEBUG]: https://traderweb.icicidirect.com:443 "GET /Content/File/txtFile/ScripFile/StockScriptNew.csv HTTP/1.1" 200 2477487
+[INFO]: 2023-07-06 09:30:00.669129: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 09:30:00.670037 {'symbol': 'NIFTY06JUL2319400PE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 39.5, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 09:30:00.670199 order details sending to broker-> NIFTY 06-JUL-2023 19400 put , SELL , 39.5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 09:30:01.061314: initial order response received from broker ,delay by 0.39 seconds
+[INFO]: 2023-07-06 09:30:01.061589 {'Success': {'order_id': '202307062400004485', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 09:30:01.078732 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 09:30:01.080278: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 09:30:01.080438 {'symbol': 'NIFTY06JUL2319400CE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 46.6, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 09:30:01.080525 order details sending to broker-> NIFTY 06-JUL-2023 19400 call , SELL , 46.6 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 09:30:01.546828: initial order response received from broker ,delay by 0.47 seconds
+[INFO]: 2023-07-06 09:30:01.547044 {'Success': {'order_id': '202307062400004488', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 09:30:01.548632 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 09:30:01.549588: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 09:30:01.549805 {'symbol': 'NIFTY06JUL2319450PE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 67.4, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 09:30:01.549937 order details sending to broker-> NIFTY 06-JUL-2023 19450 put , SELL , 67.4 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 09:30:01.863292: initial order response received from broker ,delay by 0.31 seconds
+[INFO]: 2023-07-06 09:30:01.863561 {'Success': {'order_id': '202307062400004496', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 09:30:01.865395 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 09:30:01.866268: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 09:30:01.866397 {'symbol': 'NIFTY06JUL2319450CE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 24.8, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 09:30:01.866530 order details sending to broker-> NIFTY 06-JUL-2023 19450 call , SELL , 24.8 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 09:30:02.197767: initial order response received from broker ,delay by 0.33 seconds
+[INFO]: 2023-07-06 09:30:02.197995 {'Success': {'order_id': '202307062400004500', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 09:30:02.199682 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 09:34:00.239222: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 09:34:00.239953 {'symbol': 'NIFTY06JUL2319450PE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 73.4, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 09:34:00.240144 order details sending to broker-> NIFTY 06-JUL-2023 19450 put , BUY , 73.4 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 09:34:00.688618: initial order response received from broker ,delay by 0.45 seconds
+[INFO]: 2023-07-06 09:34:00.689097 {'Success': {'order_id': '202307062400005434', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 09:34:00.692040 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 09:34:00.693485: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 09:34:00.693771 {'symbol': 'NIFTY06JUL2319450CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 30.8, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 09:34:00.694039 order details sending to broker-> NIFTY 06-JUL-2023 19450 call , BUY , 30.8 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 09:34:01.009490: initial order response received from broker ,delay by 0.32 seconds
+[INFO]: 2023-07-06 09:34:01.011243 {'Success': {'order_id': '202307062400005437', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 09:34:01.013023 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 09:34:04.222931: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 09:34:04.223157 {'symbol': 'NIFTY06JUL2319350PE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 24.4, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 09:34:04.223251 order details sending to broker-> NIFTY 06-JUL-2023 19350 put , SELL , 24.4 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 118
+[INFO]: 2023-07-06 09:34:04.539429: initial order response received from broker ,delay by 0.32 seconds
+[ERROR]: 2023-07-06 09:34:04.540209 {'Success': None, 'Status': 500, 'Error': 'Available Futures and Options Limit is insufficient to cover the trade value: '}
+[INFO]: ..
+[INFO]: 2023-07-06 09:34:04.541146: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 09:34:04.541392 {'symbol': 'NIFTY06JUL2319350CE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 65.0, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 09:34:04.541613 order details sending to broker-> NIFTY 06-JUL-2023 19350 call , SELL , 65.0 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 09:34:04.947504: initial order response received from broker ,delay by 0.41 seconds
+[INFO]: 2023-07-06 09:34:04.948113 {'Success': {'order_id': '202307062400005450', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 09:34:04.949954 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 09:40:00.670632: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 09:40:00.671312 {'symbol': 'NIFTY06JUL2319350PE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 27.2, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 09:40:00.671475 order details sending to broker-> NIFTY 06-JUL-2023 19350 put , BUY , 27.2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 09:40:01.077909: initial order response received from broker ,delay by 0.41 seconds
+[INFO]: 2023-07-06 09:40:01.078245 {'Success': {'order_id': '202307062400006569', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 09:40:01.084961 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 09:40:01.086509: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 09:40:01.086735 {'symbol': 'NIFTY06JUL2319350CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 76.2, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 09:40:01.086842 order details sending to broker-> NIFTY 06-JUL-2023 19350 call , BUY , 76.2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 09:40:01.424490: initial order response received from broker ,delay by 0.34 seconds
+[INFO]: 2023-07-06 09:40:01.424718 {'Success': {'order_id': '202307062400006571', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 09:40:01.426193 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 09:40:04.635104: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 09:40:04.635348 {'symbol': 'NIFTY06JUL2319450PE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 70.2, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 09:40:04.635429 order details sending to broker-> NIFTY 06-JUL-2023 19450 put , SELL , 70.2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 09:40:05.020006: initial order response received from broker ,delay by 0.38 seconds
+[INFO]: 2023-07-06 09:40:05.020567 {'Success': {'order_id': '202307062400006582', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 09:40:05.022810 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 09:40:05.023898: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 09:40:05.024126 {'symbol': 'NIFTY06JUL2319450CE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 19.5, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 09:40:05.024277 order details sending to broker-> NIFTY 06-JUL-2023 19450 call , SELL , 19.5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 09:40:05.352629: initial order response received from broker ,delay by 0.33 seconds
+[INFO]: 2023-07-06 09:40:05.353360 {'Success': {'order_id': '202307062400006584', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 09:40:05.356706 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 10:26:00.221670: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 10:26:00.222362 {'symbol': 'NIFTY06JUL2319400PE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 25.6, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 10:26:00.222524 order details sending to broker-> NIFTY 06-JUL-2023 19400 put , BUY , 25.6 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 10:26:00.580358: initial order response received from broker ,delay by 0.36 seconds
+[INFO]: 2023-07-06 10:26:00.581638 {'Success': {'order_id': '202307062400013702', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 10:26:00.584314 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 10:26:00.585392: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 10:26:00.585485 {'symbol': 'NIFTY06JUL2319400CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 80.8, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 10:26:00.585544 order details sending to broker-> NIFTY 06-JUL-2023 19400 call , BUY , 80.8 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 10:26:00.908674: initial order response received from broker ,delay by 0.32 seconds
+[INFO]: 2023-07-06 10:26:00.908911 {'Success': {'order_id': '202307062400013704', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 10:26:00.910697 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 10:26:04.329983: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 10:26:04.330252 {'symbol': 'NIFTY06JUL2319500PE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 66.0, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 10:26:04.330320 order details sending to broker-> NIFTY 06-JUL-2023 19500 put , SELL , 66.0 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 10:26:04.646218: initial order response received from broker ,delay by 0.32 seconds
+[INFO]: 2023-07-06 10:26:04.646583 {'Success': {'order_id': '202307062400013718', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 10:26:04.648614 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 10:26:04.649680: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 10:26:04.649841 {'symbol': 'NIFTY06JUL2319500CE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 21.0, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 10:26:04.649972 order details sending to broker-> NIFTY 06-JUL-2023 19500 call , SELL , 21.0 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 10:26:04.923075: initial order response received from broker ,delay by 0.27 seconds
+[INFO]: 2023-07-06 10:26:04.923390 {'Success': {'order_id': '202307062400013720', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 10:26:04.925375 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 10:41:00.793088: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 10:41:00.794390 {'symbol': 'NIFTY06JUL2319500PE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 72.0, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 10:41:00.794584 order details sending to broker-> NIFTY 06-JUL-2023 19500 put , BUY , 72.0 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 10:41:01.133294: initial order response received from broker ,delay by 0.34 seconds
+[INFO]: 2023-07-06 10:41:01.133524 {'Success': {'order_id': '202307062400015707', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 10:41:01.135321 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 10:41:01.136344: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 10:41:01.136460 {'symbol': 'NIFTY06JUL2319500CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 27.0, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 10:41:01.136528 order details sending to broker-> NIFTY 06-JUL-2023 19500 call , BUY , 27.0 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 10:41:01.486942: initial order response received from broker ,delay by 0.35 seconds
+[INFO]: 2023-07-06 10:41:01.487173 {'Success': {'order_id': '202307062400015709', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 10:41:01.490776 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 10:41:04.699152: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 10:41:04.699350 {'symbol': 'NIFTY06JUL2319400PE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 22.4, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 10:41:04.699427 order details sending to broker-> NIFTY 06-JUL-2023 19400 put , SELL , 22.4 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 118
+[INFO]: 2023-07-06 10:41:05.064133: initial order response received from broker ,delay by 0.36 seconds
+[ERROR]: 2023-07-06 10:41:05.064381 {'Success': None, 'Status': 500, 'Error': 'Available Futures and Options Limit is insufficient to cover the trade value: '}
+[INFO]: ..
+[INFO]: 2023-07-06 10:41:05.064669: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 10:41:05.064725 {'symbol': 'NIFTY06JUL2319400CE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 62.3, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 10:41:05.064813 order details sending to broker-> NIFTY 06-JUL-2023 19400 call , SELL , 62.3 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 10:41:05.398658: initial order response received from broker ,delay by 0.33 seconds
+[INFO]: 2023-07-06 10:41:05.398882 {'Success': {'order_id': '202307062400015716', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 10:41:05.400515 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 11:00:00.403362: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 11:00:00.403710 {'symbol': 'NIFTY06JUL2319400PE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 22.4, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 11:00:00.403848 order details sending to broker-> NIFTY 06-JUL-2023 19400 put , BUY , 22.4 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 11:00:00.735707: initial order response received from broker ,delay by 0.33 seconds
+[INFO]: 2023-07-06 11:00:00.735883 {'Success': {'order_id': '202307062400017546', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 11:00:00.737521 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 11:00:00.738343: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 11:00:00.738448 {'symbol': 'NIFTY06JUL2319400CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 77.7, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 11:00:00.738538 order details sending to broker-> NIFTY 06-JUL-2023 19400 call , BUY , 77.7 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 11:00:01.128242: initial order response received from broker ,delay by 0.39 seconds
+[INFO]: 2023-07-06 11:00:01.128441 {'Success': {'order_id': '202307062400017549', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 11:00:01.130332 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 11:00:04.337937: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 11:00:04.338252 {'symbol': 'NIFTY06JUL2319500PE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 62.7, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 11:00:04.338372 order details sending to broker-> NIFTY 06-JUL-2023 19500 put , SELL , 62.7 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 11:00:04.725698: initial order response received from broker ,delay by 0.39 seconds
+[INFO]: 2023-07-06 11:00:04.725894 {'Success': {'order_id': '202307062400017557', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 11:00:04.727547 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 11:00:04.728495: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 11:00:04.728604 {'symbol': 'NIFTY06JUL2319500CE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 18.2, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 11:00:04.728686 order details sending to broker-> NIFTY 06-JUL-2023 19500 call , SELL , 18.2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 11:00:05.168207: initial order response received from broker ,delay by 0.44 seconds
+[INFO]: 2023-07-06 11:00:05.168470 {'Success': {'order_id': '202307062400017558', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 11:00:05.170028 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 12:40:00.697680: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 12:40:00.698383 {'symbol': 'NIFTY06JUL2319500PE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 75.8, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 12:40:00.698632 order details sending to broker-> NIFTY 06-JUL-2023 19500 put , BUY , 75.8 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 12:40:01.082896: initial order response received from broker ,delay by 0.38 seconds
+[INFO]: 2023-07-06 12:40:01.083214 {'Success': {'order_id': '202307062400028488', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 12:40:01.085473 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 12:40:01.086452: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 12:40:01.086598 {'symbol': 'NIFTY06JUL2319500CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 14.1, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 12:40:01.086681 order details sending to broker-> NIFTY 06-JUL-2023 19500 call , BUY , 14.1 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 12:40:01.486368: initial order response received from broker ,delay by 0.4 seconds
+[INFO]: 2023-07-06 12:40:01.486689 {'Success': {'order_id': '202307062400028491', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 12:40:01.488157 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 12:40:04.702119: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 12:40:04.702786 {'symbol': 'NIFTY06JUL2319400PE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 16.8, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 12:40:04.703044 order details sending to broker-> NIFTY 06-JUL-2023 19400 put , SELL , 16.8 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 12:40:05.066932: initial order response received from broker ,delay by 0.36 seconds
+[INFO]: 2023-07-06 12:40:05.067198 {'Success': {'order_id': '202307062400028501', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 12:40:05.068793 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 12:40:05.069697: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 12:40:05.069831 {'symbol': 'NIFTY06JUL2319400CE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 54.5, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 12:40:05.069894 order details sending to broker-> NIFTY 06-JUL-2023 19400 call , SELL , 54.5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 12:40:05.349957: initial order response received from broker ,delay by 0.28 seconds
+[INFO]: 2023-07-06 12:40:05.350177 {'Success': {'order_id': '202307062400028502', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 12:40:05.351699 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 12:56:00.646789: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 12:56:00.647335 {'symbol': 'NIFTY06JUL2319400PE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 15.6, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 12:56:00.647445 order details sending to broker-> NIFTY 06-JUL-2023 19400 put , BUY , 15.6 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 12:56:01.018002: initial order response received from broker ,delay by 0.37 seconds
+[INFO]: 2023-07-06 12:56:01.018276 {'Success': {'order_id': '202307062400030219', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 12:56:01.020605 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 12:56:01.021820: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 12:56:01.021935 {'symbol': 'NIFTY06JUL2319400CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 72.0, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 12:56:01.021988 order details sending to broker-> NIFTY 06-JUL-2023 19400 call , BUY , 72.0 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 12:56:01.448641: initial order response received from broker ,delay by 0.43 seconds
+[INFO]: 2023-07-06 12:56:01.448887 {'Success': {'order_id': '202307062400030221', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 12:56:01.450333 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 12:56:04.662017: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 12:56:04.662338 {'symbol': 'NIFTY06JUL2319500PE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 56.5, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 12:56:04.662509 order details sending to broker-> NIFTY 06-JUL-2023 19500 put , SELL , 56.5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 12:56:04.969915: initial order response received from broker ,delay by 0.31 seconds
+[INFO]: 2023-07-06 12:56:04.970103 {'Success': {'order_id': '202307062400030234', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 12:56:04.971509 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 12:56:04.972390: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 12:56:04.972482 {'symbol': 'NIFTY06JUL2319500CE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 11.3, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 12:56:04.972544 order details sending to broker-> NIFTY 06-JUL-2023 19500 call , SELL , 11.3 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 12:56:05.304319: initial order response received from broker ,delay by 0.33 seconds
+[INFO]: 2023-07-06 12:56:05.304571 {'Success': {'order_id': '202307062400030235', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 12:56:05.306466 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 13:21:00.889419: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 13:21:00.889889 {'symbol': 'NIFTY06JUL2319500PE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 71.0, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 13:21:00.890049 order details sending to broker-> NIFTY 06-JUL-2023 19500 put , BUY , 71.0 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 13:21:01.289075: initial order response received from broker ,delay by 0.4 seconds
+[INFO]: 2023-07-06 13:21:01.289280 {'Success': {'order_id': '202307062400032856', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 13:21:01.290923 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 13:21:01.291809: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 13:21:01.291928 {'symbol': 'NIFTY06JUL2319500CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 12.0, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 13:21:01.291984 order details sending to broker-> NIFTY 06-JUL-2023 19500 call , BUY , 12.0 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 13:21:01.693750: initial order response received from broker ,delay by 0.4 seconds
+[INFO]: 2023-07-06 13:21:01.693929 {'Success': {'order_id': '202307062400032857', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 13:21:01.696358 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 13:21:04.904225: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 13:21:04.904450 {'symbol': 'NIFTY06JUL2319400PE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 12.3, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 13:21:04.904527 order details sending to broker-> NIFTY 06-JUL-2023 19400 put , SELL , 12.3 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 13:21:05.313285: initial order response received from broker ,delay by 0.41 seconds
+[INFO]: 2023-07-06 13:21:05.313551 {'Success': {'order_id': '202307062400032863', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 13:21:05.315791 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 13:21:05.316478: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 13:21:05.316560 {'symbol': 'NIFTY06JUL2319400CE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 51.8, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 13:21:05.316607 order details sending to broker-> NIFTY 06-JUL-2023 19400 call , SELL , 51.8 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 13:21:05.618240: initial order response received from broker ,delay by 0.3 seconds
+[INFO]: 2023-07-06 13:21:05.618519 {'Success': {'order_id': '202307062400032865', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 13:21:05.620124 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 13:30:00.786780: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 13:30:00.787248 {'symbol': 'NIFTY06JUL2319400PE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 14.5, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 13:30:00.787371 order details sending to broker-> NIFTY 06-JUL-2023 19400 put , BUY , 14.5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 13:30:01.181527: initial order response received from broker ,delay by 0.39 seconds
+[INFO]: 2023-07-06 13:30:01.181716 {'Success': {'order_id': '202307062400033836', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 13:30:01.183348 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 13:30:01.184624: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 13:30:01.184737 {'symbol': 'NIFTY06JUL2319400CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 68.2, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 13:30:01.184805 order details sending to broker-> NIFTY 06-JUL-2023 19400 call , BUY , 68.2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 13:30:01.492515: initial order response received from broker ,delay by 0.31 seconds
+[INFO]: 2023-07-06 13:30:01.492742 {'Success': {'order_id': '202307062400033837', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 13:30:01.495186 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 13:30:04.703911: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 13:30:04.704175 {'symbol': 'NIFTY06JUL2319500PE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 54.6, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 13:30:04.704266 order details sending to broker-> NIFTY 06-JUL-2023 19500 put , SELL , 54.6 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 13:30:05.109628: initial order response received from broker ,delay by 0.41 seconds
+[INFO]: 2023-07-06 13:30:05.109839 {'Success': {'order_id': '202307062400033841', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 13:30:05.111581 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 13:30:05.116961: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 13:30:05.117135 {'symbol': 'NIFTY06JUL2319500CE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 9.2, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 13:30:05.117191 order details sending to broker-> NIFTY 06-JUL-2023 19500 call , SELL , 9.2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 13:30:05.504669: initial order response received from broker ,delay by 0.39 seconds
+[INFO]: 2023-07-06 13:30:05.504873 {'Success': {'order_id': '202307062400033843', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 13:30:05.506100 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 13:41:00.687282: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 13:41:00.687844 {'symbol': 'NIFTY06JUL2319500PE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 67.3, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 13:41:00.687976 order details sending to broker-> NIFTY 06-JUL-2023 19500 put , BUY , 67.3 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 13:41:01.135273: initial order response received from broker ,delay by 0.45 seconds
+[INFO]: 2023-07-06 13:41:01.135478 {'Success': {'order_id': '202307062400034891', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 13:41:01.137234 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 13:41:01.138297: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 13:41:01.138411 {'symbol': 'NIFTY06JUL2319500CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 12.2, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 13:41:01.138511 order details sending to broker-> NIFTY 06-JUL-2023 19500 call , BUY , 12.2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 13:41:01.532677: initial order response received from broker ,delay by 0.39 seconds
+[INFO]: 2023-07-06 13:41:01.532907 {'Success': {'order_id': '202307062400034893', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 13:41:01.534549 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 13:41:04.743314: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 13:41:04.743652 {'symbol': 'NIFTY06JUL2319400PE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 9.4, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 13:41:04.743932 order details sending to broker-> NIFTY 06-JUL-2023 19400 put , SELL , 9.4 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 13:41:05.086943: initial order response received from broker ,delay by 0.34 seconds
+[INFO]: 2023-07-06 13:41:05.087156 {'Success': {'order_id': '202307062400034906', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 13:41:05.088853 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 13:41:05.089823: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 13:41:05.089935 {'symbol': 'NIFTY06JUL2319400CE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 54.0, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 13:41:05.089986 order details sending to broker-> NIFTY 06-JUL-2023 19400 call , SELL , 54.0 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 13:41:05.493626: initial order response received from broker ,delay by 0.4 seconds
+[INFO]: 2023-07-06 13:41:05.493811 {'Success': {'order_id': '202307062400034907', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 13:41:05.495262 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 13:52:00.488429: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 13:52:00.488843 {'symbol': 'NIFTY06JUL2319400PE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 13.7, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 13:52:00.488966 order details sending to broker-> NIFTY 06-JUL-2023 19400 put , BUY , 13.7 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 13:52:00.827990: initial order response received from broker ,delay by 0.34 seconds
+[INFO]: 2023-07-06 13:52:00.828379 {'Success': {'order_id': '202307062400035888', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 13:52:00.830456 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 13:52:00.831683: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 13:52:00.831833 {'symbol': 'NIFTY06JUL2319400CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 67.0, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 13:52:00.831926 order details sending to broker-> NIFTY 06-JUL-2023 19400 call , BUY , 67.0 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 13:52:01.119722: initial order response received from broker ,delay by 0.29 seconds
+[INFO]: 2023-07-06 13:52:01.120042 {'Success': {'order_id': '202307062400035890', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 13:52:01.121891 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 13:52:04.542012: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 13:52:04.542298 {'symbol': 'NIFTY06JUL2319500PE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 55.1, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 13:52:04.542379 order details sending to broker-> NIFTY 06-JUL-2023 19500 put , SELL , 55.1 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 13:52:04.817542: initial order response received from broker ,delay by 0.28 seconds
+[INFO]: 2023-07-06 13:52:04.817797 {'Success': {'order_id': '202307062400035905', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 13:52:04.823459 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 13:52:04.824415: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 13:52:04.824528 {'symbol': 'NIFTY06JUL2319500CE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 7.8, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 13:52:04.824716 order details sending to broker-> NIFTY 06-JUL-2023 19500 call , SELL , 7.8 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 13:52:05.197767: initial order response received from broker ,delay by 0.37 seconds
+[INFO]: 2023-07-06 13:52:05.197951 {'Success': {'order_id': '202307062400035906', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 13:52:05.199473 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 13:57:00.515284: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 13:57:00.515648 {'symbol': 'NIFTY06JUL2319500PE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 67.8, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 13:57:00.515749 order details sending to broker-> NIFTY 06-JUL-2023 19500 put , BUY , 67.8 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 13:57:00.867228: initial order response received from broker ,delay by 0.35 seconds
+[INFO]: 2023-07-06 13:57:00.867456 {'Success': {'order_id': '202307062400036343', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 13:57:00.868975 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 13:57:00.869732: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 13:57:00.869827 {'symbol': 'NIFTY06JUL2319500CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 12.1, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 13:57:00.869902 order details sending to broker-> NIFTY 06-JUL-2023 19500 call , BUY , 12.1 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 13:57:01.187732: initial order response received from broker ,delay by 0.32 seconds
+[INFO]: 2023-07-06 13:57:01.188042 {'Success': {'order_id': '202307062400036344', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 13:57:01.189810 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 13:57:04.400966: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 13:57:04.401198 {'symbol': 'NIFTY06JUL2319400PE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 9.2, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 13:57:04.401273 order details sending to broker-> NIFTY 06-JUL-2023 19400 put , SELL , 9.2 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 13:57:04.664389: initial order response received from broker ,delay by 0.26 seconds
+[INFO]: 2023-07-06 13:57:04.664607 {'Success': {'order_id': '202307062400036351', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 13:57:04.666842 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 13:57:04.667706: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 13:57:04.667809 {'symbol': 'NIFTY06JUL2319400CE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 54.4, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 13:57:04.667893 order details sending to broker-> NIFTY 06-JUL-2023 19400 call , SELL , 54.4 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 13:57:05.031630: initial order response received from broker ,delay by 0.36 seconds
+[INFO]: 2023-07-06 13:57:05.031834 {'Success': {'order_id': '202307062400036354', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 13:57:05.033303 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 14:01:00.383745: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 14:01:00.384198 {'symbol': 'NIFTY06JUL2319400PE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 11.1, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 14:01:00.384307 order details sending to broker-> NIFTY 06-JUL-2023 19400 put , BUY , 11.1 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 14:01:00.743588: initial order response received from broker ,delay by 0.36 seconds
+[INFO]: 2023-07-06 14:01:00.743808 {'Success': {'order_id': '202307062400036780', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 14:01:00.745475 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 14:01:00.746257: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 14:01:00.746349 {'symbol': 'NIFTY06JUL2319400CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 70.3, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 14:01:00.746412 order details sending to broker-> NIFTY 06-JUL-2023 19400 call , BUY , 70.3 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 14:01:01.119703: initial order response received from broker ,delay by 0.37 seconds
+[INFO]: 2023-07-06 14:01:01.120031 {'Success': {'order_id': '202307062400036781', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 14:01:01.122207 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 14:01:04.330384: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 14:01:04.330714 {'symbol': 'NIFTY06JUL2319500PE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 49.5, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 14:01:04.330811 order details sending to broker-> NIFTY 06-JUL-2023 19500 put , SELL , 49.5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 14:01:04.658654: initial order response received from broker ,delay by 0.33 seconds
+[INFO]: 2023-07-06 14:01:04.658809 {'Success': {'order_id': '202307062400036798', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 14:01:04.660150 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 14:01:04.660838: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 14:01:04.660917 {'symbol': 'NIFTY06JUL2319500CE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 8.9, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 14:01:04.660965 order details sending to broker-> NIFTY 06-JUL-2023 19500 call , SELL , 8.9 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 14:01:05.117339: initial order response received from broker ,delay by 0.46 seconds
+[INFO]: 2023-07-06 14:01:05.117526 {'Success': {'order_id': '202307062400036800', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 14:01:05.118943 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 15:15:00.589930: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 15:15:00.590519 {'symbol': 'NIFTY06JUL2319450PE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 3.1, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 15:15:00.590670 order details sending to broker-> NIFTY 06-JUL-2023 19450 put , BUY , 3.1 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 15:15:01.199194: initial order response received from broker ,delay by 0.61 seconds
+[INFO]: 2023-07-06 15:15:01.199496 {'Success': {'order_id': '202307062400049980', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 15:15:01.202119 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 15:15:01.203652: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 15:15:01.203920 {'symbol': 'NIFTY06JUL2319450CE', 'action': 'BUY', 'quantity': 50, 'limitPrice': 56.5, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 15:15:01.204026 order details sending to broker-> NIFTY 06-JUL-2023 19450 call , BUY , 56.5 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 15:15:01.524856: initial order response received from broker ,delay by 0.32 seconds
+[INFO]: 2023-07-06 15:15:01.525109 {'Success': {'order_id': '202307062400049983', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 15:15:01.526582 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 15:15:04.536021: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 15:15:04.536294 {'symbol': 'NIFTY06JUL2319550PE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 42.9, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 15:15:04.536412 order details sending to broker-> NIFTY 06-JUL-2023 19550 put , SELL , 42.9 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 113
+[INFO]: 2023-07-06 15:15:04.889482: initial order response received from broker ,delay by 0.35 seconds
+[INFO]: 2023-07-06 15:15:04.889779 {'Success': {'order_id': '202307062400049995', 'message': 'Successfully Placed the order'}, 'Status': 200, 'Error': None}
+[INFO]: 2023-07-06 15:15:04.891669 order Placed sucessfully, inserted order in mongoDB
+[INFO]: ..
+[INFO]: 2023-07-06 15:15:04.892688: order received from algo: HopperN, now placing order
+[INFO]: 2023-07-06 15:15:04.892827 {'symbol': 'NIFTY06JUL2319550CE', 'action': 'SELL', 'quantity': 50, 'limitPrice': 0.1, 'algoName': 'HopperN'}
+[INFO]: 2023-07-06 15:15:04.892896 order details sending to broker-> NIFTY 06-JUL-2023 19550 call , SELL , 0.1 
+[DEBUG]: Starting new HTTPS connection (1): api.icicidirect.com:443
+[DEBUG]: https://api.icicidirect.com:443 "POST /breezeapi/api/v1/order HTTP/1.1" 200 118
+[INFO]: 2023-07-06 15:15:05.297505: initial order response received from broker ,delay by 0.4 seconds
+[ERROR]: 2023-07-06 15:15:05.297805 {'Success': None, 'Status': 500, 'Error': 'Available Futures and Options Limit is insufficient to cover the trade value: '}
+[INFO]: ..
